@@ -1,0 +1,13 @@
+project_name: 光网络智能运维仿真测试平台
+mode: replay_diagnosis
+data:
+  runs_dir: data/runs
+  external_data_root: D:\AA_MY_WORK\codex\系统仿真数据\databackup\databackup
+  external_data_roots: D:\AA_MY_WORK\codex\系统仿真数据\databackup\databackup;D:\AA_MY_WORK\codex\新数据\databcakup3
+  knowledge_dir: data/knowledge
+  registry_file: data/dataset_registry.json
+  topology_file: data/topology/nsfnet_14_gnpy_official_format.xlsx
+demo:
+  preferred_run_id: experiment_batch_20260623_094644__episode_0108
+  normal_run_id: experiment_batch_20260624_085020__episode_0007
+  hide_ground_truth_by_default: true

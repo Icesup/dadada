@@ -1,0 +1,22 @@
+﻿default_provider: page_config
+
+providers:
+  page_config:
+    description: 页面填写接口地址、引擎代号、访问密钥后调用在线诊断接口。
+    defaults:
+      base_url: https://ws-xh1e90l120ss9le7.cn-beijing.maas.aliyuncs.com/compatible-mode/v1
+      model: qwen3.7-plus
+      timeout_seconds: 90
+      max_tokens: 1400
+    ui_fields:
+      - base_url
+      - model
+      - api_key
+    api_key_display: password
+    fallback: local_rules
+    cost_guard:
+      default_max_tokens: 1400
+      no_batch_call: true
+      trigger: 每次接入实验或刷新系统状态时自动调用一次
+  local_rules:
+    description: 本地规则模式，不产生接口调用费用。
