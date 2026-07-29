@@ -1,0 +1,43 @@
+{"timestamp": "2026-06-16T10:37:22.280938", "simulation_tick": 8.245, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T10:37:22.280938", "simulation_tick": 8.245, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T10:37:22.280938", "simulation_tick": 8.245, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T10:37:22.280938", "simulation_tick": 8.245, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T10:37:22.280938", "simulation_tick": 8.245, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T10:41:33.476677", "simulation_tick": 12.431, "entity_id": "roadm College Park", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T10:41:33.476677", "simulation_tick": 12.431, "entity_id": "roadm College Park", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T10:41:33.476677", "simulation_tick": 12.431, "entity_id": "roadm College Park", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T10:44:37.165415", "simulation_tick": 15.493, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T10:44:37.165415", "simulation_tick": 15.493, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T10:44:37.165415", "simulation_tick": 15.493, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T10:55:24.840220", "simulation_tick": 26.287, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:02:34.835209", "simulation_tick": 33.454, "entity_id": "roadm College Park", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:02:34.835209", "simulation_tick": 33.454, "entity_id": "roadm College Park", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:05:29.442543", "simulation_tick": 36.364, "entity_id": "roadm College Park", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:20:03.229372", "simulation_tick": 50.927, "entity_id": "roadm College Park", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:20:03.229372", "simulation_tick": 50.927, "entity_id": "roadm College Park", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:50:23.138302", "simulation_tick": 81.259, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:50:23.138302", "simulation_tick": 81.259, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:50:23.138302", "simulation_tick": 81.259, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:50:23.138302", "simulation_tick": 81.259, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:50:23.138302", "simulation_tick": 81.259, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:50:23.138302", "simulation_tick": 81.259, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:50:23.138302", "simulation_tick": 81.259, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:50:23.138302", "simulation_tick": 81.259, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:50:23.138302", "simulation_tick": 81.259, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:50:23.138302", "simulation_tick": 81.259, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:50:23.138302", "simulation_tick": 81.259, "entity_id": "roadm Ithaca", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}
+{"timestamp": "2026-06-16T11:50:23.138302", "simulation_tick": 81.259, "entity_id": "roadm Princeton", "metrics": {"output_power_dbm": -20.07, "output_gsnr_db": 17.67}}

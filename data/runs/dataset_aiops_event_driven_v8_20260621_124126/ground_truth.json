@@ -1,0 +1,15 @@
+{
+    "metadata": {
+        "dataset_purpose": "AIOps_Root_Cause_Analysis_Training_V8.7"
+    },
+    "fault_injection": {
+        "fault_type": "EDFA_NOISE_SURGE",
+        "faulty_entity_id": "Edfa_booster_roadm Seattle_to_fiber (Seattle → Palo Alto)-_(1/12)",
+        "trigger_time_simulation": 60.0,
+        "trigger_time_real": "2026-06-21T13:41:26.246691",
+        "details": {
+            "desc": "掺铒光纤劣化，信噪比雪崩",
+            "added_nf_db": 12.0
+        }
+    }
+}

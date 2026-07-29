@@ -1,0 +1,120 @@
+{
+  "run_id": "dataset_aiops_event_driven_v9_20260621_163946",
+  "dataset_version": "v9",
+  "status": "VALID",
+  "scenario": "EDFA_GAIN_DEGRADATION",
+  "fault_entity": "Edfa_booster_roadm Seattle_to_fiber (Seattle → Palo Alto)-_(1/12)",
+  "trigger_tick": 60.0,
+  "files": {
+    "ground_truth.json": {
+      "exists": true,
+      "records": 1,
+      "errors": [],
+      "size_bytes": null,
+      "schema_fields": []
+    },
+    "simulation_events.jsonl": {
+      "exists": true,
+      "records": 101,
+      "errors": [],
+      "size_bytes": 18504,
+      "schema_fields": [
+        "details",
+        "details.priority",
+        "entity_id",
+        "event_type",
+        "layer",
+        "simulation_tick",
+        "timestamp"
+      ]
+    },
+    "service_lifecycle.jsonl": {
+      "exists": true,
+      "records": 100,
+      "errors": [],
+      "size_bytes": 309751,
+      "schema_fields": [
+        "cause",
+        "event_type",
+        "priority",
+        "routing_details",
+        "service_id",
+        "simulation_tick",
+        "timestamp"
+      ]
+    },
+    "telemetry_edfa.jsonl": {
+      "exists": true,
+      "records": 3010,
+      "errors": [],
+      "size_bytes": 951638,
+      "schema_fields": [
+        "entity_id",
+        "metrics",
+        "metrics.actual_gain_db",
+        "metrics.nf_db",
+        "metrics.output_gsnr_db",
+        "metrics.output_osnr_db",
+        "metrics.output_power_dbm",
+        "metrics.power_ripple_db",
+        "metrics.power_variance",
+        "simulation_tick",
+        "timestamp"
+      ]
+    },
+    "telemetry_fiber.jsonl": {
+      "exists": true,
+      "records": 2762,
+      "errors": [],
+      "size_bytes": 1093342,
+      "schema_fields": [
+        "entity_id",
+        "metrics",
+        "metrics.accumulated_ase_dbm",
+        "metrics.accumulated_nli_dbm",
+        "metrics.cd_ps_nm",
+        "metrics.current_gsnr_db",
+        "metrics.current_osnr_db",
+        "metrics.fiber_length_km",
+        "metrics.output_power_dbm",
+        "metrics.pmd_ps",
+        "metrics.power_ripple_db",
+        "metrics.power_variance",
+        "simulation_tick",
+        "timestamp"
+      ]
+    },
+    "telemetry_roadm.jsonl": {
+      "exists": true,
+      "records": 16,
+      "errors": [],
+      "size_bytes": 3952,
+      "schema_fields": [
+        "entity_id",
+        "metrics",
+        "metrics.current_osnr_db",
+        "metrics.output_gsnr_db",
+        "metrics.output_power_dbm",
+        "metrics.power_ripple_db",
+        "metrics.power_variance",
+        "simulation_tick",
+        "timestamp"
+      ]
+    }
+  },
+  "record_counts": {
+    "ground_truth.json": 1,
+    "simulation_events.jsonl": 101,
+    "service_lifecycle.jsonl": 100,
+    "telemetry_edfa.jsonl": 3010,
+    "telemetry_fiber.jsonl": 2762,
+    "telemetry_roadm.jsonl": 16
+  },
+  "notes": [],
+  "validation_errors": [],
+  "validation_warnings": [],
+  "run_dir": "D:\\AA_MY_WORK\\codex\\AIwork_platform\\data\\runs\\dataset_aiops_event_driven_v9_20260621_163946",
+  "batch_id": null,
+  "episode_id": null,
+  "source_relative_path": null
+}

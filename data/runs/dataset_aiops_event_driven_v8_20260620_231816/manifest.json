@@ -1,0 +1,126 @@
+{
+  "run_id": "dataset_aiops_event_driven_v8_20260620_231816",
+  "dataset_version": "v8",
+  "status": "INVALID",
+  "scenario": "FIBER_ATTENUATION_SURGE",
+  "fault_entity": "fiber (Seattle → Palo Alto)-_(1/12)",
+  "trigger_tick": 60.0,
+  "files": {
+    "ground_truth.json": {
+      "exists": true,
+      "records": 1,
+      "errors": [],
+      "size_bytes": null,
+      "schema_fields": []
+    },
+    "simulation_events.jsonl": {
+      "exists": true,
+      "records": 97,
+      "errors": [],
+      "size_bytes": 17769,
+      "schema_fields": [
+        "details",
+        "details.priority",
+        "entity_id",
+        "event_type",
+        "layer",
+        "simulation_tick",
+        "timestamp"
+      ]
+    },
+    "service_lifecycle.jsonl": {
+      "exists": true,
+      "records": 96,
+      "errors": [],
+      "size_bytes": 314463,
+      "schema_fields": [
+        "cause",
+        "event_type",
+        "priority",
+        "routing_details",
+        "service_id",
+        "simulation_tick",
+        "timestamp"
+      ]
+    },
+    "telemetry_edfa.jsonl": {
+      "exists": true,
+      "records": 3312,
+      "errors": [],
+      "size_bytes": 1047955,
+      "schema_fields": [
+        "entity_id",
+        "metrics",
+        "metrics.actual_gain_db",
+        "metrics.nf_db",
+        "metrics.output_gsnr_db",
+        "metrics.output_osnr_db",
+        "metrics.output_power_dbm",
+        "metrics.power_ripple_db",
+        "metrics.power_variance",
+        "simulation_tick",
+        "timestamp"
+      ]
+    },
+    "telemetry_fiber.jsonl": {
+      "exists": true,
+      "records": 3050,
+      "errors": [
+        "telemetry_fiber.jsonl:614: JSONL 解析失败: Expecting ',' delimiter: line 1 column 123 (char 122)",
+        "telemetry_fiber.jsonl:615: JSONL 解析失败: Extra data: line 1 column 5 (char 4)"
+      ],
+      "size_bytes": 1208991,
+      "schema_fields": [
+        "entity_id",
+        "metrics",
+        "metrics.accumulated_ase_dbm",
+        "metrics.accumulated_nli_dbm",
+        "metrics.cd_ps_nm",
+        "metrics.current_gsnr_db",
+        "metrics.current_osnr_db",
+        "metrics.fiber_length_km",
+        "metrics.output_power_dbm",
+        "metrics.pmd_ps",
+        "metrics.power_ripple_db",
+        "metrics.power_variance",
+        "simulation_tick",
+        "timestamp"
+      ]
+    },
+    "telemetry_roadm.jsonl": {
+      "exists": true,
+      "records": 16,
+      "errors": [],
+      "size_bytes": 3881,
+      "schema_fields": [
+        "entity_id",
+        "metrics",
+        "metrics.current_osnr_db",
+        "metrics.output_gsnr_db",
+        "metrics.output_power_dbm",
+        "metrics.power_ripple_db",
+        "metrics.power_variance",
+        "simulation_tick",
+        "timestamp"
+      ]
+    }
+  },
+  "record_counts": {
+    "ground_truth.json": 1,
+    "simulation_events.jsonl": 97,
+    "service_lifecycle.jsonl": 96,
+    "telemetry_edfa.jsonl": 3312,
+    "telemetry_fiber.jsonl": 3050,
+    "telemetry_roadm.jsonl": 16
+  },
+  "notes": [],
+  "validation_errors": [
+    "telemetry_fiber.jsonl:614: JSONL 解析失败: Expecting ',' delimiter: line 1 column 123 (char 122)",
+    "telemetry_fiber.jsonl:615: JSONL 解析失败: Extra data: line 1 column 5 (char 4)"
+  ],
+  "validation_warnings": [],
+  "run_dir": "D:\\AA_MY_WORK\\codex\\AIwork_platform\\data\\runs\\dataset_aiops_event_driven_v8_20260620_231816",
+  "batch_id": null,
+  "episode_id": null,
+  "source_relative_path": null
+}

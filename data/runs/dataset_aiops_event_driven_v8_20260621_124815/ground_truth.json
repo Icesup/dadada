@@ -1,0 +1,14 @@
+{
+    "metadata": {
+        "dataset_purpose": "AIOps_Root_Cause_Analysis_Training_V8.7"
+    },
+    "fault_injection": {
+        "fault_type": "FIBER_NONLINEAR_ANOMALY",
+        "faulty_entity_id": "fiber (Seattle → Palo Alto)-_(1/12)",
+        "trigger_time_simulation": 60.0,
+        "trigger_time_real": "2026-06-21T13:48:15.048531",
+        "details": {
+            "desc": "错接非标极细光纤，非线性干扰爆表"
+        }
+    }
+}

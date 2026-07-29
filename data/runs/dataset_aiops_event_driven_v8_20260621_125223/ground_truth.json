@@ -1,0 +1,14 @@
+{
+    "metadata": {
+        "dataset_purpose": "AIOps_Root_Cause_Analysis_Training_V8.7"
+    },
+    "fault_injection": {
+        "fault_type": "EDFA_TILT_RIPPLE_ERROR",
+        "faulty_entity_id": "Edfa_booster_roadm Seattle_to_fiber (Seattle → Palo Alto)-_(1/12)",
+        "trigger_time_simulation": 60.0,
+        "trigger_time_real": "2026-06-21T13:52:23.132893",
+        "details": {
+            "desc": "滤波器失效，引发增益波纹倾斜"
+        }
+    }
+}

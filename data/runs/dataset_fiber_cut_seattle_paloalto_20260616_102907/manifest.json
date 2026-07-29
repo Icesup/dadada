@@ -1,0 +1,110 @@
+{
+  "run_id": "dataset_fiber_cut_seattle_paloalto_20260616_102907",
+  "dataset_version": "legacy",
+  "status": "LEGACY",
+  "scenario": null,
+  "fault_entity": null,
+  "trigger_tick": null,
+  "files": {
+    "ground_truth.json": {
+      "exists": false,
+      "records": 0,
+      "errors": [
+        "文件不存在"
+      ],
+      "size_bytes": null,
+      "schema_fields": []
+    },
+    "simulation_events.jsonl": {
+      "exists": true,
+      "records": 96,
+      "errors": [],
+      "size_bytes": 17952,
+      "schema_fields": [
+        "details",
+        "details.path",
+        "details.priority",
+        "entity_id",
+        "event_type",
+        "layer",
+        "simulation_tick",
+        "timestamp"
+      ]
+    },
+    "service_lifecycle.jsonl": {
+      "exists": false,
+      "records": 0,
+      "errors": [
+        "文件不存在: D:\\AA_MY_WORK\\codex\\AIwork_platform\\data\\runs\\dataset_fiber_cut_seattle_paloalto_20260616_102907\\service_lifecycle.jsonl"
+      ],
+      "size_bytes": null,
+      "schema_fields": []
+    },
+    "telemetry_edfa.jsonl": {
+      "exists": true,
+      "records": 4788,
+      "errors": [],
+      "size_bytes": 1160292,
+      "schema_fields": [
+        "entity_id",
+        "metrics",
+        "metrics.actual_gain_db",
+        "metrics.nf_db",
+        "metrics.output_gsnr_db",
+        "metrics.output_power_dbm",
+        "simulation_tick",
+        "timestamp"
+      ]
+    },
+    "telemetry_fiber.jsonl": {
+      "exists": true,
+      "records": 4408,
+      "errors": [],
+      "size_bytes": 1250060,
+      "schema_fields": [
+        "entity_id",
+        "metrics",
+        "metrics.accumulated_ase_dbm",
+        "metrics.accumulated_nli_dbm",
+        "metrics.current_gsnr_db",
+        "metrics.fiber_length_km",
+        "metrics.output_power_dbm",
+        "simulation_tick",
+        "timestamp"
+      ]
+    },
+    "telemetry_roadm.jsonl": {
+      "exists": true,
+      "records": 43,
+      "errors": [],
+      "size_bytes": 7278,
+      "schema_fields": [
+        "entity_id",
+        "metrics",
+        "metrics.output_gsnr_db",
+        "metrics.output_power_dbm",
+        "simulation_tick",
+        "timestamp"
+      ]
+    }
+  },
+  "record_counts": {
+    "ground_truth.json": 0,
+    "simulation_events.jsonl": 96,
+    "service_lifecycle.jsonl": 0,
+    "telemetry_edfa.jsonl": 4788,
+    "telemetry_fiber.jsonl": 4408,
+    "telemetry_roadm.jsonl": 43
+  },
+  "notes": [],
+  "validation_errors": [],
+  "validation_warnings": [
+    "缺少 ground_truth.json",
+    "缺少 ground_truth.json，无法提取故障信息",
+    "缺少 service_lifecycle.jsonl"
+  ],
+  "run_dir": "D:\\AA_MY_WORK\\codex\\AIwork_platform\\data\\runs\\dataset_fiber_cut_seattle_paloalto_20260616_102907",
+  "batch_id": null,
+  "episode_id": null,
+  "source_relative_path": null
+}

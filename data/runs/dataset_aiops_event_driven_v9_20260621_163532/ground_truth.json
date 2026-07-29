@@ -1,0 +1,15 @@
+{
+    "metadata": {
+        "dataset_purpose": "AIOps_Root_Cause_Analysis_Training_V9.0"
+    },
+    "fault_injection": {
+        "fault_type": "FIBER_ATTENUATION_SURGE",
+        "faulty_entity_id": "fiber (Seattle → Palo Alto)-_(1/12)",
+        "trigger_time_simulation": 60.0,
+        "trigger_time_real": "2026-06-21T17:35:32.567020",
+        "details": {
+            "desc": "光纤割接/弯折，衰减激增",
+            "added_loss_db": 15.0
+        }
+    }
+}

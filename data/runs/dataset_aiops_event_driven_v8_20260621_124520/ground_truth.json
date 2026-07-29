@@ -1,0 +1,14 @@
+{
+    "metadata": {
+        "dataset_purpose": "AIOps_Root_Cause_Analysis_Training_V8.7"
+    },
+    "fault_injection": {
+        "fault_type": "FIBER_PMD_SURGE",
+        "faulty_entity_id": "fiber (Seattle → Palo Alto)-_(1/12)",
+        "trigger_time_simulation": 60.0,
+        "trigger_time_real": "2026-06-21T13:45:20.096195",
+        "details": {
+            "desc": "光缆重度挤压，PMD剧增"
+        }
+    }
+}

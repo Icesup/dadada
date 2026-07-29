@@ -1,0 +1,96 @@
+{"timestamp": "2026-06-16T10:29:24.205804", "simulation_tick": 0.277, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1000", "details": {"priority": "GOLD", "path": "Lincoln->Atlanta"}}
+{"timestamp": "2026-06-16T10:30:42.022793", "simulation_tick": 1.574, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1001", "details": {"priority": "BRONZE", "path": "Salt Lake City->Palo Alto"}}
+{"timestamp": "2026-06-16T10:32:11.485071", "simulation_tick": 3.065, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1001", "details": {}}
+{"timestamp": "2026-06-16T10:32:28.086607", "simulation_tick": 3.341, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1002", "details": {"priority": "BRONZE", "path": "Urbana-Champaign->Palo Alto"}}
+{"timestamp": "2026-06-16T10:33:12.061176", "simulation_tick": 4.074, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1002", "details": {}}
+{"timestamp": "2026-06-16T10:37:22.280938", "simulation_tick": 8.245, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1003", "details": {"priority": "SILVER", "path": "College Park->Seattle"}}
+{"timestamp": "2026-06-16T10:38:11.709398", "simulation_tick": 9.068, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1004", "details": {"priority": "BRONZE", "path": "Salt Lake City->Princeton"}}
+{"timestamp": "2026-06-16T10:39:51.094318", "simulation_tick": 10.725, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1005", "details": {"priority": "SILVER", "path": "Salt Lake City->Urbana-Champaign"}}
+{"timestamp": "2026-06-16T10:40:04.172682", "simulation_tick": 10.943, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1006", "details": {"priority": "SILVER", "path": "San Diego->Pittsburgh"}}
+{"timestamp": "2026-06-16T10:40:08.436619", "simulation_tick": 11.014, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1007", "details": {"priority": "BRONZE", "path": "San Diego->Urbana-Champaign"}}
+{"timestamp": "2026-06-16T10:41:33.476677", "simulation_tick": 12.431, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1008", "details": {"priority": "BRONZE", "path": "Ithaca->San Diego"}}
+{"timestamp": "2026-06-16T10:41:57.488709", "simulation_tick": 12.831, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1009", "details": {"priority": "SILVER", "path": "Houston->Salt Lake City"}}
+{"timestamp": "2026-06-16T10:42:11.361984", "simulation_tick": 13.063, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1000", "details": {}}
+{"timestamp": "2026-06-16T10:42:44.678572", "simulation_tick": 13.618, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1010", "details": {"priority": "BRONZE", "path": "Lincoln->Pittsburgh"}}
+{"timestamp": "2026-06-16T10:42:48.209401", "simulation_tick": 13.677, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1006", "details": {}}
+{"timestamp": "2026-06-16T10:42:52.375293", "simulation_tick": 13.746, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1010", "details": {}}
+{"timestamp": "2026-06-16T10:43:03.961531", "simulation_tick": 13.939, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1007", "details": {}}
+{"timestamp": "2026-06-16T10:44:37.165415", "simulation_tick": 15.493, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1011", "details": {"priority": "BRONZE", "path": "College Park->Salt Lake City"}}
+{"timestamp": "2026-06-16T10:48:21.776274", "simulation_tick": 19.236, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1004", "details": {}}
+{"timestamp": "2026-06-16T10:48:36.545692", "simulation_tick": 19.482, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1005", "details": {}}
+{"timestamp": "2026-06-16T10:49:43.479845", "simulation_tick": 20.598, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1012", "details": {"priority": "GOLD", "path": "Lincoln->Houston"}}
+{"timestamp": "2026-06-16T10:50:04.448612", "simulation_tick": 20.947, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1013", "details": {"priority": "SILVER", "path": "Boulder->Salt Lake City"}}
+{"timestamp": "2026-06-16T10:50:05.991130", "simulation_tick": 20.973, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1014", "details": {"priority": "BRONZE", "path": "Lincoln->College Park"}}
+{"timestamp": "2026-06-16T10:54:41.498225", "simulation_tick": 25.565, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1013", "details": {}}
+{"timestamp": "2026-06-16T10:55:24.840220", "simulation_tick": 26.287, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1015", "details": {"priority": "SILVER", "path": "College Park->Houston"}}
+{"timestamp": "2026-06-16T10:55:59.386174", "simulation_tick": 26.863, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1016", "details": {"priority": "SILVER", "path": "Houston->San Diego"}}
+{"timestamp": "2026-06-16T10:57:38.166127", "simulation_tick": 28.509, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1011", "details": {}}
+{"timestamp": "2026-06-16T10:58:32.737286", "simulation_tick": 29.419, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1014", "details": {}}
+{"timestamp": "2026-06-16T11:01:47.907640", "simulation_tick": 32.672, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1017", "details": {"priority": "BRONZE", "path": "Atlanta->Pittsburgh"}}
+{"timestamp": "2026-06-16T11:01:56.041163", "simulation_tick": 32.807, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1018", "details": {"priority": "BRONZE", "path": "Boulder->Seattle"}}
+{"timestamp": "2026-06-16T11:02:34.835209", "simulation_tick": 33.454, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1019", "details": {"priority": "SILVER", "path": "Pittsburgh->San Diego"}}
+{"timestamp": "2026-06-16T11:02:59.140562", "simulation_tick": 33.859, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1018", "details": {}}
+{"timestamp": "2026-06-16T11:05:29.442543", "simulation_tick": 36.364, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1020", "details": {"priority": "SILVER", "path": "Princeton->Ithaca"}}
+{"timestamp": "2026-06-16T11:05:52.094847", "simulation_tick": 36.741, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1019", "details": {}}
+{"timestamp": "2026-06-16T11:06:13.062100", "simulation_tick": 37.091, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1020", "details": {}}
+{"timestamp": "2026-06-16T11:08:49.840779", "simulation_tick": 39.704, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1021", "details": {"priority": "SILVER", "path": "Ithaca->Lincoln"}}
+{"timestamp": "2026-06-16T11:10:10.797129", "simulation_tick": 41.053, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1012", "details": {}}
+{"timestamp": "2026-06-16T11:10:41.787212", "simulation_tick": 41.57, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1016", "details": {}}
+{"timestamp": "2026-06-16T11:10:52.908363", "simulation_tick": 41.755, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1022", "details": {"priority": "BRONZE", "path": "Seattle->Boulder"}}
+{"timestamp": "2026-06-16T11:11:25.207308", "simulation_tick": 42.293, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1003", "details": {}}
+{"timestamp": "2026-06-16T11:13:28.113665", "simulation_tick": 44.342, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1023", "details": {"priority": "BRONZE", "path": "Salt Lake City->College Park"}}
+{"timestamp": "2026-06-16T11:16:57.666389", "simulation_tick": 47.834, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1024", "details": {"priority": "BRONZE", "path": "Seattle->Princeton"}}
+{"timestamp": "2026-06-16T11:18:21.511843", "simulation_tick": 49.232, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1025", "details": {"priority": "SILVER", "path": "Lincoln->Palo Alto"}}
+{"timestamp": "2026-06-16T11:19:40.758491", "simulation_tick": 50.553, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1026", "details": {"priority": "BRONZE", "path": "Ann Arbor->Princeton"}}
+{"timestamp": "2026-06-16T11:20:03.229372", "simulation_tick": 50.927, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1027", "details": {"priority": "BRONZE", "path": "Ann Arbor->Houston"}}
+{"timestamp": "2026-06-16T11:20:32.056958", "simulation_tick": 51.407, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1024", "details": {}}
+{"timestamp": "2026-06-16T11:21:34.781353", "simulation_tick": 52.453, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1025", "details": {}}
+{"timestamp": "2026-06-16T11:21:38.112431", "simulation_tick": 52.508, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1028", "details": {"priority": "BRONZE", "path": "Princeton->Pittsburgh"}}
+{"timestamp": "2026-06-16T11:21:44.646363", "simulation_tick": 52.617, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1029", "details": {"priority": "SILVER", "path": "Houston->Ann Arbor"}}
+{"timestamp": "2026-06-16T11:22:33.869559", "simulation_tick": 53.438, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1027", "details": {}}
+{"timestamp": "2026-06-16T11:23:27.812069", "simulation_tick": 54.337, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1026", "details": {}}
+{"timestamp": "2026-06-16T11:24:33.444401", "simulation_tick": 55.431, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1022", "details": {}}
+{"timestamp": "2026-06-16T11:24:35.318075", "simulation_tick": 55.462, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1015", "details": {}}
+{"timestamp": "2026-06-16T11:25:16.772630", "simulation_tick": 56.153, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1028", "details": {}}
+{"timestamp": "2026-06-16T11:26:22.915665", "simulation_tick": 57.255, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1009", "details": {}}
+{"timestamp": "2026-06-16T11:29:12.554343", "simulation_tick": 60.082, "layer": "L0", "event_type": "FIBER_DEGRADATION", "entity_id": "fiber (Seattle → Palo Alto)-_(1/12)", "details": {"added_loss_db": 15.0, "new_loss_coef": 15.2}}
+{"timestamp": "2026-06-16T11:29:12.554343", "simulation_tick": 60.082, "layer": "L2", "event_type": "SERVICE_BLOCKED", "entity_id": "SRV-1030", "details": {"reason": "PHYSICS_IMPAIRMENT"}}
+{"timestamp": "2026-06-16T11:29:20.115371", "simulation_tick": 60.208, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1031", "details": {"priority": "BRONZE", "path": "Salt Lake City->Urbana-Champaign"}}
+{"timestamp": "2026-06-16T11:29:32.317716", "simulation_tick": 60.412, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1017", "details": {}}
+{"timestamp": "2026-06-16T11:30:24.177204", "simulation_tick": 61.276, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1031", "details": {}}
+{"timestamp": "2026-06-16T11:30:28.707216", "simulation_tick": 61.352, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1008", "details": {}}
+{"timestamp": "2026-06-16T11:30:29.816622", "simulation_tick": 61.37, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1032", "details": {"priority": "SILVER", "path": "Princeton->Palo Alto"}}
+{"timestamp": "2026-06-16T11:31:22.745972", "simulation_tick": 62.252, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1033", "details": {"priority": "BRONZE", "path": "Boulder->Urbana-Champaign"}}
+{"timestamp": "2026-06-16T11:33:11.738470", "simulation_tick": 64.069, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1034", "details": {"priority": "BRONZE", "path": "Salt Lake City->Ithaca"}}
+{"timestamp": "2026-06-16T11:33:18.165078", "simulation_tick": 64.176, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1021", "details": {}}
+{"timestamp": "2026-06-16T11:36:07.143342", "simulation_tick": 66.992, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1033", "details": {}}
+{"timestamp": "2026-06-16T11:36:23.406582", "simulation_tick": 67.263, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1035", "details": {"priority": "BRONZE", "path": "San Diego->Ann Arbor"}}
+{"timestamp": "2026-06-16T11:37:50.728751", "simulation_tick": 68.719, "layer": "L2", "event_type": "SERVICE_BLOCKED", "entity_id": "SRV-1036", "details": {"reason": "PHYSICS_IMPAIRMENT"}}
+{"timestamp": "2026-06-16T11:38:51.781545", "simulation_tick": 69.736, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1032", "details": {}}
+{"timestamp": "2026-06-16T11:40:09.448376", "simulation_tick": 71.031, "layer": "L2", "event_type": "SERVICE_BLOCKED", "entity_id": "SRV-1037", "details": {"reason": "PHYSICS_IMPAIRMENT"}}
+{"timestamp": "2026-06-16T11:40:20.019035", "simulation_tick": 71.207, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1038", "details": {"priority": "BRONZE", "path": "Atlanta->Palo Alto"}}
+{"timestamp": "2026-06-16T11:41:25.281524", "simulation_tick": 72.295, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1039", "details": {"priority": "BRONZE", "path": "Princeton->Lincoln"}}
+{"timestamp": "2026-06-16T11:41:53.653279", "simulation_tick": 72.767, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1023", "details": {}}
+{"timestamp": "2026-06-16T11:42:00.519054", "simulation_tick": 72.882, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1040", "details": {"priority": "GOLD", "path": "Ann Arbor->Princeton"}}
+{"timestamp": "2026-06-16T11:42:40.878211", "simulation_tick": 73.555, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1039", "details": {}}
+{"timestamp": "2026-06-16T11:46:21.659472", "simulation_tick": 77.234, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1041", "details": {"priority": "BRONZE", "path": "Lincoln->Princeton"}}
+{"timestamp": "2026-06-16T11:46:45.818406", "simulation_tick": 77.637, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1041", "details": {}}
+{"timestamp": "2026-06-16T11:47:25.907639", "simulation_tick": 78.305, "layer": "L2", "event_type": "SERVICE_BLOCKED", "entity_id": "SRV-1042", "details": {"reason": "PHYSICS_IMPAIRMENT"}}
+{"timestamp": "2026-06-16T11:47:34.139245", "simulation_tick": 78.442, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1043", "details": {"priority": "BRONZE", "path": "Urbana-Champaign->Ann Arbor"}}
+{"timestamp": "2026-06-16T11:47:51.867185", "simulation_tick": 78.738, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1044", "details": {"priority": "BRONZE", "path": "San Diego->Ann Arbor"}}
+{"timestamp": "2026-06-16T11:47:54.219541", "simulation_tick": 78.777, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1045", "details": {"priority": "GOLD", "path": "Pittsburgh->Lincoln"}}
+{"timestamp": "2026-06-16T11:48:15.800904", "simulation_tick": 79.137, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1046", "details": {"priority": "BRONZE", "path": "Palo Alto->Houston"}}
+{"timestamp": "2026-06-16T11:49:58.601173", "simulation_tick": 80.85, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1047", "details": {"priority": "BRONZE", "path": "Lincoln->San Diego"}}
+{"timestamp": "2026-06-16T11:50:23.138302", "simulation_tick": 81.259, "layer": "L2", "event_type": "SERVICE_BLOCKED", "entity_id": "SRV-1048", "details": {"reason": "PHYSICS_IMPAIRMENT"}}
+{"timestamp": "2026-06-16T11:51:05.005817", "simulation_tick": 81.957, "layer": "L2", "event_type": "SERVICE_ACTIVE", "entity_id": "SRV-1049", "details": {"priority": "BRONZE", "path": "Palo Alto->Salt Lake City"}}
+{"timestamp": "2026-06-16T11:51:11.109531", "simulation_tick": 82.058, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1049", "details": {}}
+{"timestamp": "2026-06-16T11:52:48.194664", "simulation_tick": 83.676, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1034", "details": {}}
+{"timestamp": "2026-06-16T11:53:17.691526", "simulation_tick": 84.168, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1035", "details": {}}
+{"timestamp": "2026-06-16T11:53:50.643945", "simulation_tick": 84.717, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1044", "details": {}}
+{"timestamp": "2026-06-16T11:54:29.859465", "simulation_tick": 85.371, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1040", "details": {}}
+{"timestamp": "2026-06-16T11:54:33.226173", "simulation_tick": 85.427, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1038", "details": {}}
+{"timestamp": "2026-06-16T11:55:20.290818", "simulation_tick": 86.211, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1046", "details": {}}
+{"timestamp": "2026-06-16T11:57:45.996058", "simulation_tick": 88.64, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1029", "details": {}}
+{"timestamp": "2026-06-16T11:58:43.704283", "simulation_tick": 89.602, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1043", "details": {}}
+{"timestamp": "2026-06-16T12:02:33.690938", "simulation_tick": 93.435, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1045", "details": {}}
+{"timestamp": "2026-06-16T12:20:22.684288", "simulation_tick": 111.251, "layer": "L2", "event_type": "SERVICE_RELEASED", "entity_id": "SRV-1047", "details": {}}
