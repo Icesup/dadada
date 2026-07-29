@@ -1,0 +1,13 @@
+page runtime error
+Traceback (most recent call last):
+  File "D:\AA_MY_WORK\codex\AIwork_platform\app.py", line 1599, in <module>
+    main()
+  File "D:\AA_MY_WORK\codex\AIwork_platform\app.py", line 1591, in main
+    render_left_panel(registry, default_run_id)
+  File "D:\AA_MY_WORK\codex\AIwork_platform\app.py", line 948, in render_left_panel
+    if st.button("接入实验并启动感知", type="primary", width="stretch"):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda3\Lib\site-packages\streamlit\runtime\metrics_util.py", line 397, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ButtonMixin.button() got an unexpected keyword argument 'width'

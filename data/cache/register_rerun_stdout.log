@@ -1,0 +1,41 @@
+data_roots:
+  D:\AA_MY_WORK\codex\ÐÂÊý¾Ý\databcakup3
+scanned_episodes: 600
+registered_episodes: 1600
+batch_count: 9
+  experiment_batch_20260623_094117: 200
+  experiment_batch_20260623_094644: 200
+  experiment_batch_20260623_153556: 100
+  experiment_batch_20260623_155402: 100
+  experiment_batch_20260623_194654: 200
+  experiment_batch_20260624_085020: 200
+  experiment_batch_20260718_125003: 200
+  experiment_batch_20260718_135429: 200
+  experiment_batch_20260719_132744: 200
+status_counts:
+  VALID: 1600
+scenario_counts:
+  EDFA_GAIN_DEGRADATION: 310
+  ROADM_INBAND_CROSSTALK: 297
+  ROADM_WSS_FILTER_SHIFT: 291
+  NORMAL_STATE: 200
+  EDFA_NOISE_SURGE: 107
+  FIBER_NONLINEAR_ANOMALY: 107
+  FIBER_ATTENUATION_SURGE: 101
+  EDFA_TILT_RIPPLE_ERROR: 98
+  FIBER_PMD_SURGE: 89
+preferred_fault_demo:
+  run_id: experiment_batch_20260623_094644__episode_0108
+  status: VALID
+  fault_type: EDFA_NOISE_SURGE
+  fault_entity: Edfa_fiber (Seattle ¡ú Urbana-Champaign)-_(9/31)
+  trigger_tick: 30.356
+  record_counts: {'ground_truth.json': 1, 'simulation_events.jsonl': 65, 'service_lifecycle.jsonl': 64, 'telemetry_edfa.jsonl': 18730, 'telemetry_fiber.jsonl': 17264, 'telemetry_roadm.jsonl': 620}
+normal_demo:
+  run_id: experiment_batch_20260624_085020__episode_0007
+  status: VALID
+  trigger_tick: 58.122
+  record_counts: {'ground_truth.json': 1, 'simulation_events.jsonl': 84, 'service_lifecycle.jsonl': 84, 'telemetry_edfa.jsonl': 22090, 'telemetry_fiber.jsonl': 20371, 'telemetry_roadm.jsonl': 670}
+registry_path: D:\AA_MY_WORK\codex\AIwork_platform\data\dataset_registry.json
+cache_path: D:\AA_MY_WORK\codex\AIwork_platform\data\cache\databackup_file_stats.json
+elapsed_seconds: 104.85

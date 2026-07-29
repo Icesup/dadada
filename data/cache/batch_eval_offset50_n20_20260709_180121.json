@@ -1,0 +1,4845 @@
+{
+  "summary": {
+    "total": 180,
+    "type_hit_1": 0.85,
+    "type_hit_3": 0.85,
+    "entity_hit_1": 0.5555555555555556,
+    "entity_hit_3": 0.5555555555555556,
+    "device_hit": 0.9333333333333333,
+    "by_type": {
+      "EDFA_GAIN_DEGRADATION": {
+        "count": 20,
+        "type_hit_1": 0.1,
+        "type_hit_3": 0.1,
+        "entity_hit_1": 0.0,
+        "device_hit": 0.8,
+        "predicted_top1_counts": {
+          "EDFA_GAIN_DEGRADATION": 2,
+          "NONE": 14,
+          "ROADM_WSS_FILTER_SHIFT": 3,
+          "ROADM_INBAND_CROSSTALK": 1
+        }
+      },
+      "EDFA_NOISE_SURGE": {
+        "count": 20,
+        "type_hit_1": 1.0,
+        "type_hit_3": 1.0,
+        "entity_hit_1": 0.4,
+        "device_hit": 1.0,
+        "predicted_top1_counts": {
+          "EDFA_NOISE_SURGE": 20
+        }
+      },
+      "EDFA_TILT_RIPPLE_ERROR": {
+        "count": 20,
+        "type_hit_1": 1.0,
+        "type_hit_3": 1.0,
+        "entity_hit_1": 0.4,
+        "device_hit": 1.0,
+        "predicted_top1_counts": {
+          "EDFA_TILT_RIPPLE_ERROR": 20
+        }
+      },
+      "FIBER_ATTENUATION_SURGE": {
+        "count": 20,
+        "type_hit_1": 1.0,
+        "type_hit_3": 1.0,
+        "entity_hit_1": 1.0,
+        "device_hit": 1.0,
+        "predicted_top1_counts": {
+          "FIBER_ATTENUATION_SURGE": 20
+        }
+      },
+      "FIBER_NONLINEAR_ANOMALY": {
+        "count": 20,
+        "type_hit_1": 1.0,
+        "type_hit_3": 1.0,
+        "entity_hit_1": 0.4,
+        "device_hit": 1.0,
+        "predicted_top1_counts": {
+          "FIBER_NONLINEAR_ANOMALY": 20
+        }
+      },
+      "FIBER_PMD_SURGE": {
+        "count": 20,
+        "type_hit_1": 1.0,
+        "type_hit_3": 1.0,
+        "entity_hit_1": 0.45,
+        "device_hit": 1.0,
+        "predicted_top1_counts": {
+          "FIBER_PMD_SURGE": 20
+        }
+      },
+      "NORMAL_STATE": {
+        "count": 20,
+        "type_hit_1": 0.95,
+        "type_hit_3": 0.95,
+        "entity_hit_1": 1.0,
+        "device_hit": 1.0,
+        "predicted_top1_counts": {
+          "NONE": 19,
+          "EDFA_GAIN_DEGRADATION": 1
+        }
+      },
+      "ROADM_INBAND_CROSSTALK": {
+        "count": 20,
+        "type_hit_1": 0.6,
+        "type_hit_3": 0.6,
+        "entity_hit_1": 0.6,
+        "device_hit": 0.6,
+        "predicted_top1_counts": {
+          "ROADM_INBAND_CROSSTALK": 12,
+          "EDFA_NOISE_SURGE": 8
+        }
+      },
+      "ROADM_WSS_FILTER_SHIFT": {
+        "count": 20,
+        "type_hit_1": 1.0,
+        "type_hit_3": 1.0,
+        "entity_hit_1": 0.75,
+        "device_hit": 1.0,
+        "predicted_top1_counts": {
+          "ROADM_WSS_FILTER_SHIFT": 20
+        }
+      }
+    },
+    "confusion": {
+      "EDFA_GAIN_DEGRADATION": {
+        "EDFA_GAIN_DEGRADATION": 2,
+        "NONE": 14,
+        "ROADM_WSS_FILTER_SHIFT": 3,
+        "ROADM_INBAND_CROSSTALK": 1
+      },
+      "EDFA_NOISE_SURGE": {
+        "EDFA_NOISE_SURGE": 20
+      },
+      "EDFA_TILT_RIPPLE_ERROR": {
+        "EDFA_TILT_RIPPLE_ERROR": 20
+      },
+      "FIBER_ATTENUATION_SURGE": {
+        "FIBER_ATTENUATION_SURGE": 20
+      },
+      "FIBER_NONLINEAR_ANOMALY": {
+        "FIBER_NONLINEAR_ANOMALY": 20
+      },
+      "FIBER_PMD_SURGE": {
+        "FIBER_PMD_SURGE": 20
+      },
+      "NORMAL_STATE": {
+        "NONE": 19,
+        "EDFA_GAIN_DEGRADATION": 1
+      },
+      "ROADM_INBAND_CROSSTALK": {
+        "ROADM_INBAND_CROSSTALK": 12,
+        "EDFA_NOISE_SURGE": 8
+      },
+      "ROADM_WSS_FILTER_SHIFT": {
+        "ROADM_WSS_FILTER_SHIFT": 20
+      }
+    },
+    "misses": [
+      {
+        "run_id": "experiment_batch_20260623_094644__episode_0147",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top3_types": [
+          "EDFA_GAIN_DEGRADATION",
+          "ROADM_WSS_FILTER_SHIFT"
+        ],
+        "truth_entity": "Edfa_fiber (Atlanta → Pittsburgh)-_(9/10)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_094644__episode_0162",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "NONE",
+        "predicted_top3_types": [],
+        "truth_entity": "Edfa_booster_roadm San Diego_to_fiber (San Diego → Houston)-_(1/22)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_094644__episode_0174",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "NONE",
+        "predicted_top3_types": [],
+        "truth_entity": "Edfa_preamp_roadm Urbana-Champaign_from_fiber (Pittsburgh → Urbana-Champaign)-_(8/8)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_094644__episode_0178",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "NONE",
+        "predicted_top3_types": [],
+        "truth_entity": "Edfa_fiber (Ann Arbor → Salt Lake City)-_(24/27)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_094644__episode_0179",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "NONE",
+        "predicted_top3_types": [],
+        "truth_entity": "Edfa_fiber (Ann Arbor → Ithaca)-_(2/9)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_094644__episode_0180",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "NONE",
+        "predicted_top3_types": [],
+        "truth_entity": "Edfa_fiber (Houston → San Diego)-_(19/22)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_094644__episode_0192",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+        "predicted_top3_types": [
+          "ROADM_WSS_FILTER_SHIFT",
+          "ROADM_INBAND_CROSSTALK",
+          "ROADM_PORT_OR_VOA_CONFIGURATION_ERROR"
+        ],
+        "truth_entity": "Edfa_fiber (Palo Alto → Seattle)-_(3/12)",
+        "selected_entity": "roadm Urbana-Champaign",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": false
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0010",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "NONE",
+        "predicted_top3_types": [],
+        "truth_entity": "Edfa_fiber (Seattle → Urbana-Champaign)-_(29/31)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0016",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "NONE",
+        "predicted_top3_types": [],
+        "truth_entity": "Edfa_fiber (College Park → Princeton)-_(1/3)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0020",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "NONE",
+        "predicted_top3_types": [],
+        "truth_entity": "Edfa_fiber (Seattle → Urbana-Champaign)-_(20/31)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0033",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "NONE",
+        "predicted_top3_types": [],
+        "truth_entity": "Edfa_preamp_roadm Urbana-Champaign_from_fiber (Lincoln → Urbana-Champaign)-_(8/8)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0044",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+        "predicted_top3_types": [
+          "ROADM_WSS_FILTER_SHIFT",
+          "ROADM_INBAND_CROSSTALK",
+          "ROADM_PORT_OR_VOA_CONFIGURATION_ERROR"
+        ],
+        "truth_entity": "Edfa_booster_roadm Pittsburgh_to_fiber (Pittsburgh → Atlanta)-_(1/10)",
+        "selected_entity": "roadm College Park",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": false
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0046",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "NONE",
+        "predicted_top3_types": [],
+        "truth_entity": "Edfa_fiber (San Diego → Houston)-_(16/22)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0048",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "ROADM_INBAND_CROSSTALK",
+        "predicted_top3_types": [
+          "ROADM_INBAND_CROSSTALK",
+          "ROADM_WSS_FILTER_SHIFT",
+          "ROADM_PORT_OR_VOA_CONFIGURATION_ERROR"
+        ],
+        "truth_entity": "Edfa_fiber (Pittsburgh → Atlanta)-_(4/10)",
+        "selected_entity": "roadm College Park",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": false
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0052",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "NONE",
+        "predicted_top3_types": [],
+        "truth_entity": "Edfa_booster_roadm Seattle_to_fiber (Seattle → Urbana-Champaign)-_(1/31)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0055",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top3_types": [
+          "EDFA_GAIN_DEGRADATION",
+          "ROADM_WSS_FILTER_SHIFT"
+        ],
+        "truth_entity": "Edfa_fiber (San Diego → Houston)-_(13/22)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0058",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "NONE",
+        "predicted_top3_types": [],
+        "truth_entity": "Edfa_fiber (Houston → College Park)-_(18/22)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0066",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+        "predicted_top3_types": [
+          "ROADM_WSS_FILTER_SHIFT",
+          "ROADM_INBAND_CROSSTALK",
+          "ROADM_PORT_OR_VOA_CONFIGURATION_ERROR"
+        ],
+        "truth_entity": "Edfa_booster_roadm Ithaca_to_fiber (Ithaca → College Park)-_(1/3)",
+        "selected_entity": "roadm College Park",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": false
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0083",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "NONE",
+        "predicted_top3_types": [],
+        "truth_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(9/27)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0099",
+        "truth_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top1_type": "NONE",
+        "predicted_top3_types": [],
+        "truth_entity": "Edfa_fiber (Palo Alto → Salt Lake City)-_(2/11)",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_094644__episode_0199",
+        "truth_type": "EDFA_NOISE_SURGE",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(3/27)",
+        "selected_entity": "Edfa_preamp_roadm Ann Arbor_from_fiber (Salt Lake City → Ann Arbor)-_(27/27)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0019",
+        "truth_type": "EDFA_NOISE_SURGE",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "Edfa_fiber (Lincoln → Boulder)-_(4/9)",
+        "selected_entity": "Edfa_preamp_roadm Boulder_from_fiber (Lincoln → Boulder)-_(9/9)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0021",
+        "truth_type": "EDFA_NOISE_SURGE",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "Edfa_fiber (Ithaca → College Park)-_(1/3)",
+        "selected_entity": "Edfa_preamp_roadm College Park_from_fiber (Ithaca → College Park)-_(3/3)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0032",
+        "truth_type": "EDFA_NOISE_SURGE",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "Edfa_fiber (Urbana-Champaign → Pittsburgh)-_(1/8)",
+        "selected_entity": "Edfa_preamp_roadm Pittsburgh_from_fiber (Urbana-Champaign → Pittsburgh)-_(8/8)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0047",
+        "truth_type": "EDFA_NOISE_SURGE",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(25/27)",
+        "selected_entity": "Edfa_preamp_roadm Ann Arbor_from_fiber (Salt Lake City → Ann Arbor)-_(27/27)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0074",
+        "truth_type": "EDFA_NOISE_SURGE",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "Edfa_fiber (Pittsburgh → Atlanta)-_(1/10)",
+        "selected_entity": "Edfa_preamp_roadm Atlanta_from_fiber (Pittsburgh → Atlanta)-_(10/10)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0093",
+        "truth_type": "EDFA_NOISE_SURGE",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "Edfa_fiber (College Park → Houston)-_(9/22)",
+        "selected_entity": "Edfa_preamp_roadm Houston_from_fiber (College Park → Houston)-_(22/22)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0095",
+        "truth_type": "EDFA_NOISE_SURGE",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "Edfa_fiber (Princeton → Pittsburgh)-_(5/6)",
+        "selected_entity": "Edfa_preamp_roadm Pittsburgh_from_fiber (Princeton → Pittsburgh)-_(6/6)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0009",
+        "truth_type": "EDFA_NOISE_SURGE",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "Edfa_fiber (San Diego → Seattle)-_(5/18)",
+        "selected_entity": "Edfa_preamp_roadm Seattle_from_fiber (San Diego → Seattle)-_(18/18)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0054",
+        "truth_type": "EDFA_NOISE_SURGE",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "Edfa_fiber (Houston → Boulder)-_(11/12)",
+        "selected_entity": "Edfa_preamp_roadm Boulder_from_fiber (Houston → Boulder)-_(12/12)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0062",
+        "truth_type": "EDFA_NOISE_SURGE",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "Edfa_fiber (College Park → Houston)-_(4/22)",
+        "selected_entity": "Edfa_preamp_roadm Houston_from_fiber (College Park → Houston)-_(22/22)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0063",
+        "truth_type": "EDFA_NOISE_SURGE",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "Edfa_fiber (Ann Arbor → Princeton)-_(8/9)",
+        "selected_entity": "Edfa_preamp_roadm Princeton_from_fiber (Ann Arbor → Princeton)-_(9/9)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0056",
+        "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top3_types": [
+          "EDFA_TILT_RIPPLE_ERROR",
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION"
+        ],
+        "truth_entity": "Edfa_fiber (Salt Lake City → Boulder)-_(1/7)",
+        "selected_entity": "Edfa_fiber (Salt Lake City → Boulder)-_(5/7)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0057",
+        "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top3_types": [
+          "EDFA_TILT_RIPPLE_ERROR",
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION"
+        ],
+        "truth_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(4/27)",
+        "selected_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(13/27)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0060",
+        "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top3_types": [
+          "EDFA_TILT_RIPPLE_ERROR",
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION"
+        ],
+        "truth_entity": "Edfa_fiber (College Park → Houston)-_(9/22)",
+        "selected_entity": "Edfa_fiber (College Park → Houston)-_(11/22)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0064",
+        "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top3_types": [
+          "EDFA_TILT_RIPPLE_ERROR",
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION"
+        ],
+        "truth_entity": "Edfa_fiber (Houston → San Diego)-_(1/22)",
+        "selected_entity": "Edfa_fiber (Houston → San Diego)-_(18/22)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0067",
+        "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top3_types": [
+          "EDFA_TILT_RIPPLE_ERROR",
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION"
+        ],
+        "truth_entity": "Edfa_booster_roadm Lincoln_to_fiber (Lincoln → Urbana-Champaign)-_(1/8)",
+        "selected_entity": "Edfa_fiber (Lincoln → Urbana-Champaign)-_(5/8)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0096",
+        "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top3_types": [
+          "EDFA_TILT_RIPPLE_ERROR",
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION"
+        ],
+        "truth_entity": "Edfa_fiber (Houston → San Diego)-_(7/22)",
+        "selected_entity": "Edfa_fiber (Houston → San Diego)-_(10/22)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0001",
+        "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top3_types": [
+          "EDFA_TILT_RIPPLE_ERROR",
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION"
+        ],
+        "truth_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(11/27)",
+        "selected_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(18/27)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0007",
+        "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top3_types": [
+          "EDFA_TILT_RIPPLE_ERROR",
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION"
+        ],
+        "truth_entity": "Edfa_fiber (Houston → San Diego)-_(3/22)",
+        "selected_entity": "Edfa_fiber (Houston → San Diego)-_(11/22)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0010",
+        "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top3_types": [
+          "EDFA_TILT_RIPPLE_ERROR",
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION"
+        ],
+        "truth_entity": "Edfa_fiber (Lincoln → Boulder)-_(5/9)",
+        "selected_entity": "Edfa_fiber (Lincoln → Boulder)-_(6/9)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0012",
+        "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top3_types": [
+          "EDFA_TILT_RIPPLE_ERROR",
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION"
+        ],
+        "truth_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(12/27)",
+        "selected_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(21/27)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0036",
+        "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top3_types": [
+          "EDFA_TILT_RIPPLE_ERROR",
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION"
+        ],
+        "truth_entity": "Edfa_fiber (Urbana-Champaign → Lincoln)-_(4/8)",
+        "selected_entity": "Edfa_fiber (Urbana-Champaign → Lincoln)-_(5/8)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0039",
+        "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+        "predicted_top3_types": [
+          "EDFA_TILT_RIPPLE_ERROR",
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION"
+        ],
+        "truth_entity": "Edfa_fiber (Princeton → Ann Arbor)-_(5/9)",
+        "selected_entity": "Edfa_fiber (Princeton → Ann Arbor)-_(7/9)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_094644__episode_0168",
+        "truth_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top3_types": [
+          "FIBER_NONLINEAR_ANOMALY",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_PMD_SURGE"
+        ],
+        "truth_entity": "fiber (Ann Arbor → Ithaca)-_(3/9)",
+        "selected_entity": "fiber (Ann Arbor → Ithaca)-_(9/9)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_094644__episode_0169",
+        "truth_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top3_types": [
+          "FIBER_NONLINEAR_ANOMALY",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_PMD_SURGE"
+        ],
+        "truth_entity": "fiber (Ann Arbor → Salt Lake City)-_(1/27)",
+        "selected_entity": "fiber (Ann Arbor → Salt Lake City)-_(27/27)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_094644__episode_0194",
+        "truth_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top3_types": [
+          "FIBER_NONLINEAR_ANOMALY",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_PMD_SURGE"
+        ],
+        "truth_entity": "fiber (Seattle → Urbana-Champaign)-_(19/31)",
+        "selected_entity": "fiber (Seattle → Urbana-Champaign)-_(31/31)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0012",
+        "truth_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top3_types": [
+          "FIBER_NONLINEAR_ANOMALY",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_PMD_SURGE"
+        ],
+        "truth_entity": "fiber (Ann Arbor → Ithaca)-_(5/9)",
+        "selected_entity": "fiber (Ann Arbor → Ithaca)-_(9/9)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0018",
+        "truth_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top3_types": [
+          "FIBER_NONLINEAR_ANOMALY",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_PMD_SURGE"
+        ],
+        "truth_entity": "fiber (College Park → Princeton)-_(1/3)",
+        "selected_entity": "fiber (College Park → Princeton)-_(3/3)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0054",
+        "truth_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top3_types": [
+          "FIBER_NONLINEAR_ANOMALY",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_PMD_SURGE"
+        ],
+        "truth_entity": "fiber (Houston → San Diego)-_(12/22)",
+        "selected_entity": "fiber (Houston → San Diego)-_(15/22)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0070",
+        "truth_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top3_types": [
+          "FIBER_NONLINEAR_ANOMALY",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_PMD_SURGE"
+        ],
+        "truth_entity": "fiber (Salt Lake City → Ann Arbor)-_(1/27)",
+        "selected_entity": "fiber (Salt Lake City → Ann Arbor)-_(6/27)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0086",
+        "truth_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top3_types": [
+          "FIBER_NONLINEAR_ANOMALY",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_PMD_SURGE"
+        ],
+        "truth_entity": "fiber (Lincoln → Urbana-Champaign)-_(3/8)",
+        "selected_entity": "fiber (Lincoln → Urbana-Champaign)-_(8/8)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0098",
+        "truth_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top3_types": [
+          "FIBER_NONLINEAR_ANOMALY",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_PMD_SURGE"
+        ],
+        "truth_entity": "fiber (Pittsburgh → Atlanta)-_(7/10)",
+        "selected_entity": "fiber (Pittsburgh → Atlanta)-_(10/10)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0008",
+        "truth_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top3_types": [
+          "FIBER_NONLINEAR_ANOMALY",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_PMD_SURGE"
+        ],
+        "truth_entity": "fiber (Seattle → Urbana-Champaign)-_(29/31)",
+        "selected_entity": "fiber (Seattle → Urbana-Champaign)-_(31/31)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0020",
+        "truth_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top3_types": [
+          "FIBER_NONLINEAR_ANOMALY",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_PMD_SURGE"
+        ],
+        "truth_entity": "fiber (Seattle → Urbana-Champaign)-_(23/31)",
+        "selected_entity": "fiber (Seattle → Urbana-Champaign)-_(24/31)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0053",
+        "truth_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+        "predicted_top3_types": [
+          "FIBER_NONLINEAR_ANOMALY",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_PMD_SURGE"
+        ],
+        "truth_entity": "fiber (San Diego → Houston)-_(7/22)",
+        "selected_entity": "fiber (San Diego → Houston)-_(10/22)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_094644__episode_0191",
+        "truth_type": "FIBER_PMD_SURGE",
+        "predicted_top1_type": "FIBER_PMD_SURGE",
+        "predicted_top3_types": [
+          "FIBER_PMD_SURGE",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_NONLINEAR_ANOMALY"
+        ],
+        "truth_entity": "fiber (Pittsburgh → Princeton)-_(1/6)",
+        "selected_entity": "fiber (Pittsburgh → Princeton)-_(6/6)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_094644__episode_0197",
+        "truth_type": "FIBER_PMD_SURGE",
+        "predicted_top1_type": "FIBER_PMD_SURGE",
+        "predicted_top3_types": [
+          "FIBER_PMD_SURGE",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_NONLINEAR_ANOMALY"
+        ],
+        "truth_entity": "fiber (Houston → Atlanta)-_(10/13)",
+        "selected_entity": "fiber (Houston → Atlanta)-_(13/13)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0014",
+        "truth_type": "FIBER_PMD_SURGE",
+        "predicted_top1_type": "FIBER_PMD_SURGE",
+        "predicted_top3_types": [
+          "FIBER_PMD_SURGE",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_NONLINEAR_ANOMALY"
+        ],
+        "truth_entity": "fiber (Palo Alto → San Diego)-_(4/7)",
+        "selected_entity": "fiber (Palo Alto → San Diego)-_(7/7)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0079",
+        "truth_type": "FIBER_PMD_SURGE",
+        "predicted_top1_type": "FIBER_PMD_SURGE",
+        "predicted_top3_types": [
+          "FIBER_PMD_SURGE",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_NONLINEAR_ANOMALY"
+        ],
+        "truth_entity": "fiber (Seattle → San Diego)-_(12/18)",
+        "selected_entity": "fiber (Seattle → San Diego)-_(18/18)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0085",
+        "truth_type": "FIBER_PMD_SURGE",
+        "predicted_top1_type": "FIBER_PMD_SURGE",
+        "predicted_top3_types": [
+          "FIBER_PMD_SURGE",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_NONLINEAR_ANOMALY"
+        ],
+        "truth_entity": "fiber (Atlanta → Houston)-_(12/13)",
+        "selected_entity": "fiber (Atlanta → Houston)-_(13/13)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0087",
+        "truth_type": "FIBER_PMD_SURGE",
+        "predicted_top1_type": "FIBER_PMD_SURGE",
+        "predicted_top3_types": [
+          "FIBER_PMD_SURGE",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_NONLINEAR_ANOMALY"
+        ],
+        "truth_entity": "fiber (Ann Arbor → Ithaca)-_(2/9)",
+        "selected_entity": "fiber (Ann Arbor → Ithaca)-_(9/9)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0100",
+        "truth_type": "FIBER_PMD_SURGE",
+        "predicted_top1_type": "FIBER_PMD_SURGE",
+        "predicted_top3_types": [
+          "FIBER_PMD_SURGE",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_NONLINEAR_ANOMALY"
+        ],
+        "truth_entity": "fiber (Palo Alto → Seattle)-_(1/12)",
+        "selected_entity": "fiber (Palo Alto → Seattle)-_(12/12)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0015",
+        "truth_type": "FIBER_PMD_SURGE",
+        "predicted_top1_type": "FIBER_PMD_SURGE",
+        "predicted_top3_types": [
+          "FIBER_PMD_SURGE",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_NONLINEAR_ANOMALY"
+        ],
+        "truth_entity": "fiber (Ithaca → Ann Arbor)-_(6/9)",
+        "selected_entity": "fiber (Ithaca → Ann Arbor)-_(9/9)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0026",
+        "truth_type": "FIBER_PMD_SURGE",
+        "predicted_top1_type": "FIBER_PMD_SURGE",
+        "predicted_top3_types": [
+          "FIBER_PMD_SURGE",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_NONLINEAR_ANOMALY"
+        ],
+        "truth_entity": "fiber (Boulder → Lincoln)-_(7/9)",
+        "selected_entity": "fiber (Boulder → Lincoln)-_(9/9)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0037",
+        "truth_type": "FIBER_PMD_SURGE",
+        "predicted_top1_type": "FIBER_PMD_SURGE",
+        "predicted_top3_types": [
+          "FIBER_PMD_SURGE",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_NONLINEAR_ANOMALY"
+        ],
+        "truth_entity": "fiber (Lincoln → Urbana-Champaign)-_(3/8)",
+        "selected_entity": "fiber (Lincoln → Urbana-Champaign)-_(8/8)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0091",
+        "truth_type": "FIBER_PMD_SURGE",
+        "predicted_top1_type": "FIBER_PMD_SURGE",
+        "predicted_top3_types": [
+          "FIBER_PMD_SURGE",
+          "FIBER_ATTENUATION_SURGE",
+          "FIBER_NONLINEAR_ANOMALY"
+        ],
+        "truth_entity": "fiber (Seattle → Urbana-Champaign)-_(24/31)",
+        "selected_entity": "fiber (Seattle → Urbana-Champaign)-_(31/31)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260624_085020__episode_0064",
+        "truth_type": "NORMAL_STATE",
+        "predicted_top1_type": "EDFA_GAIN_DEGRADATION",
+        "predicted_top3_types": [
+          "EDFA_GAIN_DEGRADATION",
+          "ROADM_WSS_FILTER_SHIFT"
+        ],
+        "truth_entity": "NONE",
+        "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": true,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0002",
+        "truth_type": "ROADM_INBAND_CROSSTALK",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "roadm Atlanta",
+        "selected_entity": "Edfa_booster_roadm Atlanta_to_fiber (Atlanta → Pittsburgh)-_(1/10)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": false
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0034",
+        "truth_type": "ROADM_INBAND_CROSSTALK",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "roadm Pittsburgh",
+        "selected_entity": "Edfa_booster_roadm Pittsburgh_to_fiber (Pittsburgh → Urbana-Champaign)-_(1/8)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": false
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0053",
+        "truth_type": "ROADM_INBAND_CROSSTALK",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "roadm San Diego",
+        "selected_entity": "Edfa_booster_roadm San Diego_to_fiber (San Diego → Seattle)-_(1/18)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": false
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0065",
+        "truth_type": "ROADM_INBAND_CROSSTALK",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "roadm Princeton",
+        "selected_entity": "Edfa_booster_roadm Princeton_to_fiber (Princeton → Pittsburgh)-_(1/6)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": false
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0075",
+        "truth_type": "ROADM_INBAND_CROSSTALK",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "roadm Palo Alto",
+        "selected_entity": "Edfa_booster_roadm Palo Alto_to_fiber (Palo Alto → San Diego)-_(1/7)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": false
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0076",
+        "truth_type": "ROADM_INBAND_CROSSTALK",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "roadm Pittsburgh",
+        "selected_entity": "Edfa_booster_roadm Pittsburgh_to_fiber (Pittsburgh → Atlanta)-_(1/10)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": false
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0077",
+        "truth_type": "ROADM_INBAND_CROSSTALK",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "roadm Palo Alto",
+        "selected_entity": "Edfa_fiber (Palo Alto → Seattle)-_(7/12)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": false
+      },
+      {
+        "run_id": "experiment_batch_20260623_153556__episode_0078",
+        "truth_type": "ROADM_INBAND_CROSSTALK",
+        "predicted_top1_type": "EDFA_NOISE_SURGE",
+        "predicted_top3_types": [
+          "EDFA_NOISE_SURGE",
+          "EDFA_GAIN_DEGRADATION",
+          "EDFA_TILT_RIPPLE_ERROR"
+        ],
+        "truth_entity": "roadm Seattle",
+        "selected_entity": "Edfa_fiber (Seattle → Palo Alto)-_(7/12)",
+        "type_hit_1": false,
+        "type_hit_3": false,
+        "entity_hit_1": false,
+        "device_hit": false
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0065",
+        "truth_type": "ROADM_WSS_FILTER_SHIFT",
+        "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+        "predicted_top3_types": [
+          "ROADM_WSS_FILTER_SHIFT",
+          "ROADM_INBAND_CROSSTALK",
+          "EDFA_NOISE_SURGE"
+        ],
+        "truth_entity": "roadm Boulder",
+        "selected_entity": "Edfa_booster_roadm Boulder_to_fiber (Boulder → Lincoln)-_(1/9)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_155402__episode_0083",
+        "truth_type": "ROADM_WSS_FILTER_SHIFT",
+        "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+        "predicted_top3_types": [
+          "ROADM_WSS_FILTER_SHIFT",
+          "ROADM_INBAND_CROSSTALK",
+          "EDFA_GAIN_DEGRADATION"
+        ],
+        "truth_entity": "roadm Salt Lake City",
+        "selected_entity": "Edfa_booster_roadm Salt Lake City_to_fiber (Salt Lake City → Ann Arbor)-_(1/27)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_194654__episode_0012",
+        "truth_type": "ROADM_WSS_FILTER_SHIFT",
+        "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+        "predicted_top3_types": [
+          "ROADM_WSS_FILTER_SHIFT",
+          "ROADM_INBAND_CROSSTALK",
+          "EDFA_NOISE_SURGE"
+        ],
+        "truth_entity": "roadm Seattle",
+        "selected_entity": "Edfa_fiber (Seattle → Palo Alto)-_(4/12)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_194654__episode_0027",
+        "truth_type": "ROADM_WSS_FILTER_SHIFT",
+        "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+        "predicted_top3_types": [
+          "ROADM_WSS_FILTER_SHIFT",
+          "ROADM_INBAND_CROSSTALK"
+        ],
+        "truth_entity": "roadm San Diego",
+        "selected_entity": "Edfa_booster_roadm San Diego_to_fiber (San Diego → Palo Alto)-_(1/7)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      },
+      {
+        "run_id": "experiment_batch_20260623_194654__episode_0055",
+        "truth_type": "ROADM_WSS_FILTER_SHIFT",
+        "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+        "predicted_top3_types": [
+          "ROADM_WSS_FILTER_SHIFT",
+          "ROADM_INBAND_CROSSTALK",
+          "EDFA_NOISE_SURGE"
+        ],
+        "truth_entity": "roadm Houston",
+        "selected_entity": "Edfa_booster_roadm Houston_to_fiber (Houston → San Diego)-_(1/22)",
+        "type_hit_1": true,
+        "type_hit_3": true,
+        "entity_hit_1": false,
+        "device_hit": true
+      }
+    ]
+  },
+  "rows": [
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0147",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_fiber (Atlanta → Pittsburgh)-_(9/10)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "EDFA_GAIN_DEGRADATION",
+      "predicted_top3_types": [
+        "EDFA_GAIN_DEGRADATION",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0162",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_booster_roadm San Diego_to_fiber (San Diego → Houston)-_(1/22)",
+      "truth_device": "edfa",
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0174",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_preamp_roadm Urbana-Champaign_from_fiber (Pittsburgh → Urbana-Champaign)-_(8/8)",
+      "truth_device": "edfa",
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0178",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_fiber (Ann Arbor → Salt Lake City)-_(24/27)",
+      "truth_device": "edfa",
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0179",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_fiber (Ann Arbor → Ithaca)-_(2/9)",
+      "truth_device": "edfa",
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0180",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_fiber (Houston → San Diego)-_(19/22)",
+      "truth_device": "edfa",
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0192",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_fiber (Palo Alto → Seattle)-_(3/12)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "roadm",
+      "selected_entity": "roadm Urbana-Champaign",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "ROADM_PORT_OR_VOA_CONFIGURATION_ERROR"
+      ],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": false
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0010",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_fiber (Seattle → Urbana-Champaign)-_(29/31)",
+      "truth_device": "edfa",
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0016",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_fiber (College Park → Princeton)-_(1/3)",
+      "truth_device": "edfa",
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0020",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_fiber (Seattle → Urbana-Champaign)-_(20/31)",
+      "truth_device": "edfa",
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0033",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_preamp_roadm Urbana-Champaign_from_fiber (Lincoln → Urbana-Champaign)-_(8/8)",
+      "truth_device": "edfa",
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0044",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_booster_roadm Pittsburgh_to_fiber (Pittsburgh → Atlanta)-_(1/10)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "roadm",
+      "selected_entity": "roadm College Park",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "ROADM_PORT_OR_VOA_CONFIGURATION_ERROR"
+      ],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": false
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0046",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_fiber (San Diego → Houston)-_(16/22)",
+      "truth_device": "edfa",
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0048",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_fiber (Pittsburgh → Atlanta)-_(4/10)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "roadm",
+      "selected_entity": "roadm College Park",
+      "predicted_top1_type": "ROADM_INBAND_CROSSTALK",
+      "predicted_top3_types": [
+        "ROADM_INBAND_CROSSTALK",
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_PORT_OR_VOA_CONFIGURATION_ERROR"
+      ],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": false
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0052",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_booster_roadm Seattle_to_fiber (Seattle → Urbana-Champaign)-_(1/31)",
+      "truth_device": "edfa",
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0055",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_fiber (San Diego → Houston)-_(13/22)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "EDFA_GAIN_DEGRADATION",
+      "predicted_top3_types": [
+        "EDFA_GAIN_DEGRADATION",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0058",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_fiber (Houston → College Park)-_(18/22)",
+      "truth_device": "edfa",
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0066",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_booster_roadm Ithaca_to_fiber (Ithaca → College Park)-_(1/3)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "roadm",
+      "selected_entity": "roadm College Park",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "ROADM_PORT_OR_VOA_CONFIGURATION_ERROR"
+      ],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": false
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0083",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(9/27)",
+      "truth_device": "edfa",
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0099",
+      "truth_type": "EDFA_GAIN_DEGRADATION",
+      "truth_entity": "Edfa_fiber (Palo Alto → Salt Lake City)-_(2/11)",
+      "truth_device": "edfa",
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0199",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(3/27)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Ann Arbor_from_fiber (Salt Lake City → Ann Arbor)-_(27/27)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0019",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Lincoln → Boulder)-_(4/9)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Boulder_from_fiber (Lincoln → Boulder)-_(9/9)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0021",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Ithaca → College Park)-_(1/3)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm College Park_from_fiber (Ithaca → College Park)-_(3/3)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0031",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Lincoln → Urbana-Champaign)-_(3/8)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Lincoln → Urbana-Champaign)-_(3/8)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0032",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Urbana-Champaign → Pittsburgh)-_(1/8)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Pittsburgh_from_fiber (Urbana-Champaign → Pittsburgh)-_(8/8)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0039",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Palo Alto → Seattle)-_(1/12)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Palo Alto → Seattle)-_(1/12)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0047",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(25/27)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Ann Arbor_from_fiber (Salt Lake City → Ann Arbor)-_(27/27)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0068",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Boulder → Lincoln)-_(7/9)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Boulder → Lincoln)-_(7/9)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0074",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Pittsburgh → Atlanta)-_(1/10)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Atlanta_from_fiber (Pittsburgh → Atlanta)-_(10/10)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0093",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (College Park → Houston)-_(9/22)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Houston_from_fiber (College Park → Houston)-_(22/22)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0094",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_preamp_roadm Houston_from_fiber (College Park → Houston)-_(22/22)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Houston_from_fiber (College Park → Houston)-_(22/22)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0095",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Princeton → Pittsburgh)-_(5/6)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Pittsburgh_from_fiber (Princeton → Pittsburgh)-_(6/6)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0005",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Ithaca → Ann Arbor)-_(4/9)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Ithaca → Ann Arbor)-_(4/9)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0009",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (San Diego → Seattle)-_(5/18)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Seattle_from_fiber (San Diego → Seattle)-_(18/18)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0024",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Seattle → Palo Alto)-_(11/12)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Seattle → Palo Alto)-_(11/12)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0034",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Seattle → Urbana-Champaign)-_(15/31)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Seattle → Urbana-Champaign)-_(15/31)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0054",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Houston → Boulder)-_(11/12)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Boulder_from_fiber (Houston → Boulder)-_(12/12)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0058",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Lincoln → Boulder)-_(2/9)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Lincoln → Boulder)-_(2/9)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0062",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (College Park → Houston)-_(4/22)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Houston_from_fiber (College Park → Houston)-_(22/22)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0063",
+      "truth_type": "EDFA_NOISE_SURGE",
+      "truth_entity": "Edfa_fiber (Ann Arbor → Princeton)-_(8/9)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Princeton_from_fiber (Ann Arbor → Princeton)-_(9/9)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0056",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Salt Lake City → Boulder)-_(1/7)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Salt Lake City → Boulder)-_(5/7)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0057",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(4/27)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(13/27)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0060",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (College Park → Houston)-_(9/22)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (College Park → Houston)-_(11/22)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0061",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Atlanta → Pittsburgh)-_(9/10)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Atlanta → Pittsburgh)-_(9/10)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0064",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Houston → San Diego)-_(1/22)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Houston → San Diego)-_(18/22)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0067",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_booster_roadm Lincoln_to_fiber (Lincoln → Urbana-Champaign)-_(1/8)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Lincoln → Urbana-Champaign)-_(5/8)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0071",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_preamp_roadm Boulder_from_fiber (Houston → Boulder)-_(12/12)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Boulder_from_fiber (Houston → Boulder)-_(12/12)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0081",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Pittsburgh → Princeton)-_(1/6)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Pittsburgh → Princeton)-_(1/6)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0084",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Boulder → Salt Lake City)-_(6/7)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Boulder → Salt Lake City)-_(6/7)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0092",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Lincoln → Urbana-Champaign)-_(7/8)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Lincoln → Urbana-Champaign)-_(7/8)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0096",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Houston → San Diego)-_(7/22)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Houston → San Diego)-_(10/22)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0001",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(11/27)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(18/27)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0006",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Houston → College Park)-_(18/22)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Houston → College Park)-_(18/22)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0007",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Houston → San Diego)-_(3/22)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Houston → San Diego)-_(11/22)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0010",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Lincoln → Boulder)-_(5/9)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Lincoln → Boulder)-_(6/9)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0012",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(12/27)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Salt Lake City → Ann Arbor)-_(21/27)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0036",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Urbana-Champaign → Lincoln)-_(4/8)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Urbana-Champaign → Lincoln)-_(5/8)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0039",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Princeton → Ann Arbor)-_(5/9)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Princeton → Ann Arbor)-_(7/9)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0043",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Houston → Boulder)-_(1/12)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Houston → Boulder)-_(1/12)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0046",
+      "truth_type": "EDFA_TILT_RIPPLE_ERROR",
+      "truth_entity": "Edfa_fiber (Boulder → Lincoln)-_(4/9)",
+      "truth_device": "edfa",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Boulder → Lincoln)-_(4/9)",
+      "predicted_top1_type": "EDFA_TILT_RIPPLE_ERROR",
+      "predicted_top3_types": [
+        "EDFA_TILT_RIPPLE_ERROR",
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0186",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Boulder → Salt Lake City)-_(2/7)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Boulder → Salt Lake City)-_(2/7)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0187",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Salt Lake City → Boulder)-_(7/7)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Salt Lake City → Boulder)-_(7/7)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0004",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Houston → Atlanta)-_(10/13)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Houston → Atlanta)-_(10/13)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0005",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Houston → San Diego)-_(17/22)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Houston → San Diego)-_(17/22)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0013",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Salt Lake City → Boulder)-_(3/7)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Salt Lake City → Boulder)-_(3/7)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0023",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Salt Lake City → Ann Arbor)-_(4/27)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Salt Lake City → Ann Arbor)-_(4/27)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0030",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Ithaca → Pittsburgh)-_(1/6)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Ithaca → Pittsburgh)-_(1/6)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0038",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Salt Lake City → Ann Arbor)-_(26/27)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Salt Lake City → Ann Arbor)-_(26/27)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0050",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Houston → College Park)-_(14/22)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Houston → College Park)-_(14/22)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0082",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Salt Lake City → Ann Arbor)-_(6/27)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Salt Lake City → Ann Arbor)-_(6/27)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0089",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Houston → Boulder)-_(8/12)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Houston → Boulder)-_(8/12)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0090",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Princeton → Ann Arbor)-_(6/9)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Princeton → Ann Arbor)-_(6/9)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0097",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Atlanta → Houston)-_(9/13)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Atlanta → Houston)-_(9/13)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0002",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Ann Arbor → Ithaca)-_(5/9)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Ann Arbor → Ithaca)-_(5/9)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0014",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Houston → San Diego)-_(18/22)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Houston → San Diego)-_(18/22)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0016",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Urbana-Champaign → Seattle)-_(24/31)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Urbana-Champaign → Seattle)-_(24/31)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0021",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Ann Arbor → Salt Lake City)-_(15/27)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Ann Arbor → Salt Lake City)-_(15/27)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0027",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Atlanta → Houston)-_(7/13)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Atlanta → Houston)-_(7/13)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0035",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (San Diego → Houston)-_(2/22)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (San Diego → Houston)-_(2/22)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0042",
+      "truth_type": "FIBER_ATTENUATION_SURGE",
+      "truth_entity": "fiber (Houston → Boulder)-_(12/12)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Houston → Boulder)-_(12/12)",
+      "predicted_top1_type": "FIBER_ATTENUATION_SURGE",
+      "predicted_top3_types": [
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0168",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (Ann Arbor → Ithaca)-_(3/9)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Ann Arbor → Ithaca)-_(9/9)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0169",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (Ann Arbor → Salt Lake City)-_(1/27)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Ann Arbor → Salt Lake City)-_(27/27)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0194",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (Seattle → Urbana-Champaign)-_(19/31)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Seattle → Urbana-Champaign)-_(31/31)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0012",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (Ann Arbor → Ithaca)-_(5/9)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Ann Arbor → Ithaca)-_(9/9)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0017",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (Urbana-Champaign → Lincoln)-_(4/8)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Urbana-Champaign → Lincoln)-_(4/8)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "EDFA_NOISE_SURGE",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0018",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (College Park → Princeton)-_(1/3)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (College Park → Princeton)-_(3/3)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0037",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (San Diego → Houston)-_(17/22)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (San Diego → Houston)-_(17/22)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0045",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (Salt Lake City → Ann Arbor)-_(27/27)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Salt Lake City → Ann Arbor)-_(27/27)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0049",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (San Diego → Houston)-_(21/22)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (San Diego → Houston)-_(21/22)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0054",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (Houston → San Diego)-_(12/22)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Houston → San Diego)-_(15/22)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0069",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (College Park → Houston)-_(19/22)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (College Park → Houston)-_(19/22)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0070",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (Salt Lake City → Ann Arbor)-_(1/27)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Salt Lake City → Ann Arbor)-_(6/27)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0086",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (Lincoln → Urbana-Champaign)-_(3/8)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Lincoln → Urbana-Champaign)-_(8/8)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0088",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (San Diego → Houston)-_(6/22)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (San Diego → Houston)-_(6/22)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0098",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (Pittsburgh → Atlanta)-_(7/10)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Pittsburgh → Atlanta)-_(10/10)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0008",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (Seattle → Urbana-Champaign)-_(29/31)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Seattle → Urbana-Champaign)-_(31/31)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0019",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (Seattle → Urbana-Champaign)-_(6/31)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Seattle → Urbana-Champaign)-_(6/31)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0020",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (Seattle → Urbana-Champaign)-_(23/31)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Seattle → Urbana-Champaign)-_(24/31)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0052",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (Palo Alto → Salt Lake City)-_(11/11)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Palo Alto → Salt Lake City)-_(11/11)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0053",
+      "truth_type": "FIBER_NONLINEAR_ANOMALY",
+      "truth_entity": "fiber (San Diego → Houston)-_(7/22)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (San Diego → Houston)-_(10/22)",
+      "predicted_top1_type": "FIBER_NONLINEAR_ANOMALY",
+      "predicted_top3_types": [
+        "FIBER_NONLINEAR_ANOMALY",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_PMD_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0191",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Pittsburgh → Princeton)-_(1/6)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Pittsburgh → Princeton)-_(6/6)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0195",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Atlanta → Houston)-_(10/13)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Atlanta → Houston)-_(10/13)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0197",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Houston → Atlanta)-_(10/13)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Houston → Atlanta)-_(13/13)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0006",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Ann Arbor → Princeton)-_(1/9)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Ann Arbor → Princeton)-_(1/9)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0014",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Palo Alto → San Diego)-_(4/7)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Palo Alto → San Diego)-_(7/7)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0015",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Houston → San Diego)-_(11/22)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Houston → San Diego)-_(11/22)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0025",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Houston → College Park)-_(4/22)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Houston → College Park)-_(4/22)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0040",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Urbana-Champaign → Seattle)-_(1/31)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Urbana-Champaign → Seattle)-_(1/31)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0042",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Houston → Atlanta)-_(8/13)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Houston → Atlanta)-_(8/13)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0079",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Seattle → San Diego)-_(12/18)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Seattle → San Diego)-_(18/18)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0085",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Atlanta → Houston)-_(12/13)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Atlanta → Houston)-_(13/13)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0087",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Ann Arbor → Ithaca)-_(2/9)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Ann Arbor → Ithaca)-_(9/9)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0100",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Palo Alto → Seattle)-_(1/12)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Palo Alto → Seattle)-_(12/12)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0015",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Ithaca → Ann Arbor)-_(6/9)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Ithaca → Ann Arbor)-_(9/9)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0026",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Boulder → Lincoln)-_(7/9)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Boulder → Lincoln)-_(9/9)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0037",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Lincoln → Urbana-Champaign)-_(3/8)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Lincoln → Urbana-Champaign)-_(8/8)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0041",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (College Park → Houston)-_(17/22)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (College Park → Houston)-_(17/22)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0044",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Seattle → Urbana-Champaign)-_(16/31)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Seattle → Urbana-Champaign)-_(16/31)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0090",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Houston → College Park)-_(22/22)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Houston → College Park)-_(22/22)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0091",
+      "truth_type": "FIBER_PMD_SURGE",
+      "truth_entity": "fiber (Seattle → Urbana-Champaign)-_(24/31)",
+      "truth_device": "fiber",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "fiber",
+      "selected_entity": "fiber (Seattle → Urbana-Champaign)-_(31/31)",
+      "predicted_top1_type": "FIBER_PMD_SURGE",
+      "predicted_top3_types": [
+        "FIBER_PMD_SURGE",
+        "FIBER_ATTENUATION_SURGE",
+        "FIBER_NONLINEAR_ANOMALY"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0051",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0052",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0053",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0054",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0055",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0056",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "roadm",
+      "selected_entity": "roadm Urbana-Champaign",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0057",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0058",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0059",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0060",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0061",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0062",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "roadm",
+      "selected_entity": "roadm College Park",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0063",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0064",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "EDFA_GAIN_DEGRADATION",
+      "predicted_top3_types": [
+        "EDFA_GAIN_DEGRADATION",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0065",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0066",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0067",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0068",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0069",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260624_085020__episode_0070",
+      "truth_type": "NORMAL_STATE",
+      "truth_entity": "NONE",
+      "truth_device": null,
+      "predicted_status": "NORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "",
+      "predicted_top3_types": [],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_094644__episode_0190",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Princeton",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Princeton_to_fiber (Princeton → Pittsburgh)-_(1/6)",
+      "predicted_top1_type": "ROADM_INBAND_CROSSTALK",
+      "predicted_top3_types": [
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0002",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Atlanta",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Atlanta_to_fiber (Atlanta → Pittsburgh)-_(1/10)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": false
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0003",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Palo Alto",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Salt Lake City_from_fiber (Palo Alto → Salt Lake City)-_(11/11)",
+      "predicted_top1_type": "ROADM_INBAND_CROSSTALK",
+      "predicted_top3_types": [
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0008",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Princeton",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Princeton_to_fiber (Princeton → Ann Arbor)-_(1/9)",
+      "predicted_top1_type": "ROADM_INBAND_CROSSTALK",
+      "predicted_top3_types": [
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0024",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Palo Alto",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Palo Alto_to_fiber (Palo Alto → Seattle)-_(1/12)",
+      "predicted_top1_type": "ROADM_INBAND_CROSSTALK",
+      "predicted_top3_types": [
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0026",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm College Park",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Houston_from_fiber (College Park → Houston)-_(22/22)",
+      "predicted_top1_type": "ROADM_INBAND_CROSSTALK",
+      "predicted_top3_types": [
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0034",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Pittsburgh",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Pittsburgh_to_fiber (Pittsburgh → Urbana-Champaign)-_(1/8)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": false
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0043",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Boulder",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Boulder_to_fiber (Boulder → Houston)-_(1/12)",
+      "predicted_top1_type": "ROADM_INBAND_CROSSTALK",
+      "predicted_top3_types": [
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0053",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm San Diego",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm San Diego_to_fiber (San Diego → Seattle)-_(1/18)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": false
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0059",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Houston",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm San Diego_from_fiber (Houston → San Diego)-_(22/22)",
+      "predicted_top1_type": "ROADM_INBAND_CROSSTALK",
+      "predicted_top3_types": [
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0063",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Princeton",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Ann Arbor_from_fiber (Princeton → Ann Arbor)-_(9/9)",
+      "predicted_top1_type": "ROADM_INBAND_CROSSTALK",
+      "predicted_top3_types": [
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0065",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Princeton",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Princeton_to_fiber (Princeton → Pittsburgh)-_(1/6)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": false
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0075",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Palo Alto",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Palo Alto_to_fiber (Palo Alto → San Diego)-_(1/7)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": false
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0076",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Pittsburgh",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Pittsburgh_to_fiber (Pittsburgh → Atlanta)-_(1/10)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": false
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0077",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Palo Alto",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Palo Alto → Seattle)-_(7/12)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": false
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0078",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Seattle",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Seattle → Palo Alto)-_(7/12)",
+      "predicted_top1_type": "EDFA_NOISE_SURGE",
+      "predicted_top3_types": [
+        "EDFA_NOISE_SURGE",
+        "EDFA_GAIN_DEGRADATION",
+        "EDFA_TILT_RIPPLE_ERROR"
+      ],
+      "type_hit_1": false,
+      "type_hit_3": false,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": false
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0080",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Seattle",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Urbana-Champaign_from_fiber (Seattle → Urbana-Champaign)-_(31/31)",
+      "predicted_top1_type": "ROADM_INBAND_CROSSTALK",
+      "predicted_top3_types": [
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_153556__episode_0091",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Princeton",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Princeton_to_fiber (Princeton → Ann Arbor)-_(1/9)",
+      "predicted_top1_type": "ROADM_INBAND_CROSSTALK",
+      "predicted_top3_types": [
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0003",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Ithaca",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ithaca_to_fiber (Ithaca → Ann Arbor)-_(1/9)",
+      "predicted_top1_type": "ROADM_INBAND_CROSSTALK",
+      "predicted_top3_types": [
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0004",
+      "truth_type": "ROADM_INBAND_CROSSTALK",
+      "truth_entity": "roadm Ithaca",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ithaca_to_fiber (Ithaca → Pittsburgh)-_(1/6)",
+      "predicted_top1_type": "ROADM_INBAND_CROSSTALK",
+      "predicted_top3_types": [
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE",
+        "ROADM_WSS_FILTER_SHIFT"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0025",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Ann Arbor",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Salt Lake City)-_(1/27)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0029",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm San Diego",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm San Diego_to_fiber (San Diego → Seattle)-_(1/18)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0032",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Lincoln",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Lincoln_to_fiber (Lincoln → Urbana-Champaign)-_(1/8)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0057",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Boulder",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Boulder → Houston)-_(6/12)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0065",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Boulder",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Boulder_to_fiber (Boulder → Lincoln)-_(1/9)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0083",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Salt Lake City",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Salt Lake City_to_fiber (Salt Lake City → Ann Arbor)-_(1/27)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0085",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Ithaca",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ithaca_to_fiber (Ithaca → Ann Arbor)-_(1/9)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0087",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Houston",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Houston_to_fiber (Houston → Boulder)-_(1/12)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0088",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Palo Alto",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Palo Alto_to_fiber (Palo Alto → Seattle)-_(1/12)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_155402__episode_0099",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Ann Arbor",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Ann Arbor_to_fiber (Ann Arbor → Ithaca)-_(1/9)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_194654__episode_0008",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Houston",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Houston_to_fiber (Houston → San Diego)-_(1/22)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_194654__episode_0011",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Pittsburgh",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Urbana-Champaign_from_fiber (Pittsburgh → Urbana-Champaign)-_(8/8)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "EDFA_GAIN_DEGRADATION",
+        "ROADM_INBAND_CROSSTALK"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_194654__episode_0012",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Seattle",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_fiber (Seattle → Palo Alto)-_(4/12)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_194654__episode_0013",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Princeton",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Princeton_to_fiber (Princeton → Ann Arbor)-_(1/9)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "EDFA_GAIN_DEGRADATION"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_194654__episode_0027",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm San Diego",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm San Diego_to_fiber (San Diego → Palo Alto)-_(1/7)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_194654__episode_0038",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Salt Lake City",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Salt Lake City_to_fiber (Salt Lake City → Boulder)-_(1/7)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_194654__episode_0055",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Houston",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Houston_to_fiber (Houston → San Diego)-_(1/22)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": false,
+      "entity_hit_3": false,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_194654__episode_0065",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Salt Lake City",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Salt Lake City_to_fiber (Salt Lake City → Ann Arbor)-_(1/27)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_194654__episode_0068",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Urbana-Champaign",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_booster_roadm Urbana-Champaign_to_fiber (Urbana-Champaign → Seattle)-_(1/31)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    },
+    {
+      "run_id": "experiment_batch_20260623_194654__episode_0072",
+      "truth_type": "ROADM_WSS_FILTER_SHIFT",
+      "truth_entity": "roadm Princeton",
+      "truth_device": "roadm",
+      "predicted_status": "ABNORMAL",
+      "selected_device": "edfa",
+      "selected_entity": "Edfa_preamp_roadm Ann Arbor_from_fiber (Princeton → Ann Arbor)-_(9/9)",
+      "predicted_top1_type": "ROADM_WSS_FILTER_SHIFT",
+      "predicted_top3_types": [
+        "ROADM_WSS_FILTER_SHIFT",
+        "ROADM_INBAND_CROSSTALK",
+        "EDFA_NOISE_SURGE"
+      ],
+      "type_hit_1": true,
+      "type_hit_3": true,
+      "entity_hit_1": true,
+      "entity_hit_3": true,
+      "device_hit": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,31 @@
+evaluated_runs: 90
+type_hit_1: 0.500
+type_hit_3: 0.822
+entity_hit_1: 0.478
+device_hit: 0.500
+observable_abnormal: 90/90 (1.000)
+observable_type_hit_1: 0.500
+observable_type_hit_3: 0.822
+signature_observable_abnormal: 90/90 (1.000)
+signature_observable_type_hit_1: 0.500
+signature_observable_type_hit_3: 0.822
+by_type:
+  EDFA_GAIN_DEGRADATION: n=30 type@1=0.967 type@3=1.000 entity@1=0.967 device=0.967 observable=30/30 observable@1=0.967 signature=30/30 signature@1=0.967 pred={'EDFA_GAIN_DEGRADATION': 29, 'FIBER_ATTENUATION_SURGE': 1}
+  ROADM_INBAND_CROSSTALK: n=30 type@1=0.533 type@3=0.733 entity@1=0.467 device=0.533 observable=30/30 observable@1=0.533 signature=30/30 signature@1=0.533 pred={'ROADM_INBAND_CROSSTALK': 16, 'FIBER_PMD_SURGE': 3, 'EDFA_NOISE_SURGE': 11}
+  ROADM_WSS_FILTER_SHIFT: n=30 type@1=0.000 type@3=0.733 entity@1=0.000 device=0.000 observable=30/30 observable@1=0.000 signature=30/30 signature@1=0.000 pred={'FIBER_ATTENUATION_SURGE': 17, 'EDFA_GAIN_DEGRADATION': 12, 'FIBER_PMD_SURGE': 1}
+confusion:
+  EDFA_GAIN_DEGRADATION: {'EDFA_GAIN_DEGRADATION': 29, 'FIBER_ATTENUATION_SURGE': 1}
+  ROADM_INBAND_CROSSTALK: {'ROADM_INBAND_CROSSTALK': 16, 'FIBER_PMD_SURGE': 3, 'EDFA_NOISE_SURGE': 11}
+  ROADM_WSS_FILTER_SHIFT: {'FIBER_ATTENUATION_SURGE': 17, 'EDFA_GAIN_DEGRADATION': 12, 'FIBER_PMD_SURGE': 1}
+misses_top10:
+  experiment_batch_20260719_132744__episode_0009: truth=EDFA_GAIN_DEGRADATION pred=FIBER_ATTENUATION_SURGE top3=['FIBER_ATTENUATION_SURGE', 'EDFA_GAIN_DEGRADATION', 'FIBER_PMD_SURGE'] entity_hit=False device_hit=False observable=True signature=True
+  experiment_batch_20260718_135429__episode_0003: truth=ROADM_INBAND_CROSSTALK pred=FIBER_PMD_SURGE top3=['FIBER_PMD_SURGE', 'FIBER_NONLINEAR_ANOMALY', 'EDFA_NOISE_SURGE'] entity_hit=False device_hit=False observable=True signature=True
+  experiment_batch_20260718_135429__episode_0004: truth=ROADM_INBAND_CROSSTALK pred=EDFA_NOISE_SURGE top3=['EDFA_NOISE_SURGE', 'ROADM_INBAND_CROSSTALK', 'ROADM_WSS_FILTER_SHIFT'] entity_hit=False device_hit=False observable=True signature=True
+  experiment_batch_20260718_135429__episode_0005: truth=ROADM_INBAND_CROSSTALK pred=EDFA_NOISE_SURGE top3=['EDFA_NOISE_SURGE', 'ROADM_INBAND_CROSSTALK', 'ROADM_WSS_FILTER_SHIFT'] entity_hit=False device_hit=False observable=True signature=True
+  experiment_batch_20260718_135429__episode_0007: truth=ROADM_INBAND_CROSSTALK pred=ROADM_INBAND_CROSSTALK top3=['ROADM_INBAND_CROSSTALK', 'EDFA_NOISE_SURGE', 'ROADM_WSS_FILTER_SHIFT'] entity_hit=False device_hit=True observable=True signature=True
+  experiment_batch_20260718_135429__episode_0008: truth=ROADM_INBAND_CROSSTALK pred=EDFA_NOISE_SURGE top3=['EDFA_NOISE_SURGE', 'ROADM_WSS_FILTER_SHIFT', 'EDFA_GAIN_DEGRADATION'] entity_hit=False device_hit=False observable=True signature=True
+  experiment_batch_20260718_135429__episode_0009: truth=ROADM_INBAND_CROSSTALK pred=EDFA_NOISE_SURGE top3=['EDFA_NOISE_SURGE', 'ROADM_INBAND_CROSSTALK', 'ROADM_WSS_FILTER_SHIFT'] entity_hit=False device_hit=False observable=True signature=True
+  experiment_batch_20260718_135429__episode_0010: truth=ROADM_INBAND_CROSSTALK pred=FIBER_PMD_SURGE top3=['FIBER_PMD_SURGE', 'FIBER_NONLINEAR_ANOMALY', 'EDFA_NOISE_SURGE'] entity_hit=False device_hit=False observable=True signature=True
+  experiment_batch_20260718_135429__episode_0012: truth=ROADM_INBAND_CROSSTALK pred=EDFA_NOISE_SURGE top3=['EDFA_NOISE_SURGE', 'ROADM_WSS_FILTER_SHIFT', 'EDFA_GAIN_DEGRADATION'] entity_hit=False device_hit=False observable=True signature=True
+  experiment_batch_20260718_135429__episode_0014: truth=ROADM_INBAND_CROSSTALK pred=EDFA_NOISE_SURGE top3=['EDFA_NOISE_SURGE', 'ROADM_INBAND_CROSSTALK', 'ROADM_WSS_FILTER_SHIFT'] entity_hit=False device_hit=False observable=True signature=True
+output_path: data\cache\batch_eval_rerun_20260724.json

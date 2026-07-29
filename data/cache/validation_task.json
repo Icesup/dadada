@@ -1,0 +1,23 @@
+{
+  "validation_task_id": "VAL-INC-C80962AC",
+  "incident_id": "INC-C80962AC",
+  "run_id": "experiment_batch_20260623_094117__episode_0012",
+  "status": "WAITING_SIMULATION_ENGINE",
+  "adapter": "SimulationAdapter",
+  "action": {
+    "action_id": "ACT-001",
+    "incident_id": "INC-C80962AC",
+    "action_name": "复核并恢复WSS中心频率",
+    "target_entity": "roadm Ann Arbor",
+    "parameters": {
+      "center_frequency": "baseline"
+    },
+    "priority": "HIGH",
+    "expected_effect": "恢复通道滤波对准和业务信号质量",
+    "risk": "MEDIUM",
+    "status": "WAITING_SIMULATION_ENGINE",
+    "candidate_fault": "ROADM_WSS_FILTER_SHIFT"
+  },
+  "result": null,
+  "note": "当前未接入在线GNPy；任务已生成，等待外部仿真引擎执行。"
+}

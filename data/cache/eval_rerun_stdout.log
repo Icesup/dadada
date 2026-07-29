@@ -1,0 +1,31 @@
+evaluated_runs: 90
+type_hit_1: 0.556
+type_hit_3: 0.633
+entity_hit_1: 0.456
+device_hit: 0.878
+observable_abnormal: 90/90 (1.000)
+observable_type_hit_1: 0.556
+observable_type_hit_3: 0.633
+signature_observable_abnormal: 90/90 (1.000)
+signature_observable_type_hit_1: 0.556
+signature_observable_type_hit_3: 0.633
+by_type:
+  EDFA_GAIN_DEGRADATION: n=30 type@1=0.000 type@3=0.033 entity@1=0.000 device=0.967 observable=30/30 observable@1=0.000 signature=30/30 signature@1=0.000 pred={'ROADM_WSS_FILTER_SHIFT': 30}
+  ROADM_INBAND_CROSSTALK: n=30 type@1=0.667 type@3=0.867 entity@1=0.533 device=0.667 observable=30/30 observable@1=0.667 signature=30/30 signature@1=0.667 pred={'ROADM_INBAND_CROSSTALK': 20, 'FIBER_PMD_SURGE': 2, 'EDFA_NOISE_SURGE': 8}
+  ROADM_WSS_FILTER_SHIFT: n=30 type@1=1.000 type@3=1.000 entity@1=0.833 device=1.000 observable=30/30 observable@1=1.000 signature=30/30 signature@1=1.000 pred={'ROADM_WSS_FILTER_SHIFT': 30}
+confusion:
+  EDFA_GAIN_DEGRADATION: {'ROADM_WSS_FILTER_SHIFT': 30}
+  ROADM_INBAND_CROSSTALK: {'ROADM_INBAND_CROSSTALK': 20, 'FIBER_PMD_SURGE': 2, 'EDFA_NOISE_SURGE': 8}
+  ROADM_WSS_FILTER_SHIFT: {'ROADM_WSS_FILTER_SHIFT': 30}
+misses_top10:
+  experiment_batch_20260719_132744__episode_0001: truth=EDFA_GAIN_DEGRADATION pred=ROADM_WSS_FILTER_SHIFT top3=['ROADM_WSS_FILTER_SHIFT', 'FIBER_ATTENUATION_SURGE', 'EDFA_NOISE_SURGE'] entity_hit=False device_hit=True observable=True signature=True
+  experiment_batch_20260719_132744__episode_0002: truth=EDFA_GAIN_DEGRADATION pred=ROADM_WSS_FILTER_SHIFT top3=['ROADM_WSS_FILTER_SHIFT', 'FIBER_ATTENUATION_SURGE', 'EDFA_NOISE_SURGE'] entity_hit=False device_hit=True observable=True signature=True
+  experiment_batch_20260719_132744__episode_0003: truth=EDFA_GAIN_DEGRADATION pred=ROADM_WSS_FILTER_SHIFT top3=['ROADM_WSS_FILTER_SHIFT', 'ROADM_INBAND_CROSSTALK', 'EDFA_NOISE_SURGE'] entity_hit=False device_hit=True observable=True signature=True
+  experiment_batch_20260719_132744__episode_0004: truth=EDFA_GAIN_DEGRADATION pred=ROADM_WSS_FILTER_SHIFT top3=['ROADM_WSS_FILTER_SHIFT', 'EDFA_NOISE_SURGE', 'ROADM_INBAND_CROSSTALK'] entity_hit=False device_hit=True observable=True signature=True
+  experiment_batch_20260719_132744__episode_0005: truth=EDFA_GAIN_DEGRADATION pred=ROADM_WSS_FILTER_SHIFT top3=['ROADM_WSS_FILTER_SHIFT', 'FIBER_ATTENUATION_SURGE', 'EDFA_NOISE_SURGE'] entity_hit=False device_hit=True observable=True signature=True
+  experiment_batch_20260719_132744__episode_0006: truth=EDFA_GAIN_DEGRADATION pred=ROADM_WSS_FILTER_SHIFT top3=['ROADM_WSS_FILTER_SHIFT', 'EDFA_NOISE_SURGE'] entity_hit=False device_hit=True observable=True signature=True
+  experiment_batch_20260719_132744__episode_0007: truth=EDFA_GAIN_DEGRADATION pred=ROADM_WSS_FILTER_SHIFT top3=['ROADM_WSS_FILTER_SHIFT', 'FIBER_ATTENUATION_SURGE', 'EDFA_NOISE_SURGE'] entity_hit=False device_hit=True observable=True signature=True
+  experiment_batch_20260719_132744__episode_0008: truth=EDFA_GAIN_DEGRADATION pred=ROADM_WSS_FILTER_SHIFT top3=['ROADM_WSS_FILTER_SHIFT', 'FIBER_ATTENUATION_SURGE', 'ROADM_INBAND_CROSSTALK'] entity_hit=False device_hit=True observable=True signature=True
+  experiment_batch_20260719_132744__episode_0009: truth=EDFA_GAIN_DEGRADATION pred=ROADM_WSS_FILTER_SHIFT top3=['ROADM_WSS_FILTER_SHIFT', 'FIBER_ATTENUATION_SURGE', 'EDFA_NOISE_SURGE'] entity_hit=False device_hit=False observable=True signature=True
+  experiment_batch_20260719_132744__episode_0010: truth=EDFA_GAIN_DEGRADATION pred=ROADM_WSS_FILTER_SHIFT top3=['ROADM_WSS_FILTER_SHIFT', 'FIBER_ATTENUATION_SURGE', 'ROADM_INBAND_CROSSTALK'] entity_hit=False device_hit=True observable=True signature=True
+output_path: data\cache\batch_eval_rerun_20260724.json

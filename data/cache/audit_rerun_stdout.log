@@ -1,0 +1,5 @@
+audited_runs: 200
+gain_drop_observed: 200
+gain_drop_observable_rate: 1.000
+missing_target_entity: 0
+output_path: data\cache\edfa_gain_observability_rerun_20260724.json

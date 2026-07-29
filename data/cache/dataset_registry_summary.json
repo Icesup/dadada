@@ -1,0 +1,17 @@
+{
+  "total_runs": 1600,
+  "status_counts": {
+    "VALID": 1600
+  },
+  "scenario_counts": {
+    "FIBER_PMD_SURGE": 89,
+    "EDFA_TILT_RIPPLE_ERROR": 98,
+    "ROADM_INBAND_CROSSTALK": 297,
+    "EDFA_NOISE_SURGE": 107,
+    "ROADM_WSS_FILTER_SHIFT": 291,
+    "FIBER_ATTENUATION_SURGE": 101,
+    "EDFA_GAIN_DEGRADATION": 310,
+    "FIBER_NONLINEAR_ANOMALY": 107,
+    "NORMAL_STATE": 200
+  }
+}

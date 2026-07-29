@@ -1,0 +1,49 @@
+D:\Anaconda3\Lib\site-packages\streamlit\util.py:227: RuntimeWarning: coroutine 'expire_cache' was never awaited
+  pass
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+page runtime error
+Traceback (most recent call last):
+  File "D:\AA_MY_WORK\codex\AIwork_platform\app.py", line 2744, in <module>
+    main()
+  File "D:\AA_MY_WORK\codex\AIwork_platform\app.py", line 2726, in main
+    render_operations_overview(registry, runtime)
+  File "D:\AA_MY_WORK\codex\AIwork_platform\app.py", line 2378, in render_operations_overview
+    render_replay_controls(registry, runtime)
+  File "D:\AA_MY_WORK\codex\AIwork_platform\app.py", line 2226, in render_replay_controls
+    st.session_state["workspace_nav"] = "运维总览"
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda3\Lib\site-packages\streamlit\runtime\metrics_util.py", line 397, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda3\Lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 103, in __setitem__
+    get_session_state()[key] = value
+    ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Anaconda3\Lib\site-packages\streamlit\runtime\state\safe_session_state.py", line 98, in __setitem__
+    self._state[key] = value
+    ~~~~~~~~~~~^^^^^
+  File "D:\Anaconda3\Lib\site-packages\streamlit\runtime\state\session_state.py", line 461, in __setitem__
+    raise StreamlitAPIException(
+streamlit.errors.StreamlitAPIException: `st.session_state.workspace_nav` cannot be modified after the widget with key `workspace_nav` is instantiated.
+page runtime error
+Traceback (most recent call last):
+  File "D:\AA_MY_WORK\codex\AIwork_platform\app.py", line 2744, in <module>
+    main()
+  File "D:\AA_MY_WORK\codex\AIwork_platform\app.py", line 2726, in main
+    render_operations_overview(registry, runtime)
+  File "D:\AA_MY_WORK\codex\AIwork_platform\app.py", line 2378, in render_operations_overview
+    render_replay_controls(registry, runtime)
+  File "D:\AA_MY_WORK\codex\AIwork_platform\app.py", line 2226, in render_replay_controls
+    st.session_state["workspace_nav"] = "运维总览"
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda3\Lib\site-packages\streamlit\runtime\metrics_util.py", line 397, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda3\Lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 103, in __setitem__
+    get_session_state()[key] = value
+    ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Anaconda3\Lib\site-packages\streamlit\runtime\state\safe_session_state.py", line 98, in __setitem__
+    self._state[key] = value
+    ~~~~~~~~~~~^^^^^
+  File "D:\Anaconda3\Lib\site-packages\streamlit\runtime\state\session_state.py", line 461, in __setitem__
+    raise StreamlitAPIException(
+streamlit.errors.StreamlitAPIException: `st.session_state.workspace_nav` cannot be modified after the widget with key `workspace_nav` is instantiated.
